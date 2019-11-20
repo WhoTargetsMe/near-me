@@ -1,16 +1,14 @@
 import React from "react"
 import styled from "styled-components"
 
-const Container = styled.div`
-  padding: 1rem 0;
-`
+import LastElection from "./LastElection"
 
-const Title = styled.h3`
+const Container = styled.div``
+
+const Title = styled.h4`
   display: block;
   text-align: center;
 `
-
-const Description = styled.p``
 
 const SelectedConstituencyPanel = props => {
   const renderContent = () => {
@@ -19,9 +17,7 @@ const SelectedConstituencyPanel = props => {
     return (
       <>
         <Title>🗳 {n}</Title>
-        <Description>
-          Here's some important info about {n}. Who will win?? 📺 Stay tuned.
-        </Description>
+        <LastElection selectedConstituency={props.selectedConstituency} />
       </>
     )
   }

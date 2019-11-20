@@ -1,6 +1,6 @@
 import React, { useEffect, useLayoutEffect, useState } from "react"
 import styled from "styled-components"
-
+import { Typeahead } from "react-bootstrap-typeahead"
 import { withFauxDOM } from "react-faux-dom"
 
 import { renderHexJSON } from "d3-hexjson"
@@ -8,9 +8,9 @@ import { interpolateRgb } from "d3-interpolate"
 import { scaleLinear } from "d3-scale"
 import { select, selection } from "d3-selection"
 import { transition } from "d3-transition"
-
 import select_transition from "../../node_modules/d3-transition/src/selection/transition"
 
+import Layout from "../components/layout"
 import SelectedConstituencyPanel from "../components/SelectedConstituencyPanel"
 
 import constituencyData from "../data/constituency-data.json"
@@ -54,6 +54,13 @@ const Button = styled.button`
 const MapAndData = styled.div`
   display: flex;
   flex-direction: row;
+  flex: 1 0 auto;
+`
+
+const SidePanelContainer = styled.div`
+  padding: 1rem 0;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
 `
 
 const groups = [
@@ -185,24 +192,39 @@ const AllPartyCumulativeTotalsLine = props => {
     drawMap("CON")
   }, [])
 
+  const handleConstituencyChange = constituency => {
+    setSelectedConstituency(constituency[0])
+  }
+
   return (
-    <Container>
-      <h4>Hex Map</h4>
-      <Buttons>
-        {groups.map(group => (
-          <Button key={group.key} onClick={() => handleClick(group.key)}>
-            {group.label}
-          </Button>
-        ))}
-      </Buttons>
-      <MapAndData>
-        {props.hexMap}
-        <SelectedConstituencyPanel
-          selectedConstituency={selectedConstituency}
-        />
-      </MapAndData>
-      <Attribution>whotargets.me data</Attribution>
-    </Container>
+    <Layout>
+      <Container>
+        <h4>Hex Map</h4>
+        <Buttons>
+          {groups.map(group => (
+            <Button key={group.key} onClick={() => handleClick(group.key)}>
+              {group.label}
+            </Button>
+          ))}
+        </Buttons>
+        <MapAndData>
+          {props.hexMap}
+          <SidePanelContainer>
+            <Typeahead
+              id="search-constituencies"
+              placeholder="Search constituencies"
+              options={mergedHexes}
+              onChange={handleConstituencyChange}
+              labelKey={option => option.n}
+            />
+            <SelectedConstituencyPanel
+              selectedConstituency={selectedConstituency}
+            />
+          </SidePanelContainer>
+        </MapAndData>
+        <Attribution>whotargets.me data</Attribution>
+      </Container>
+    </Layout>
   )
 }
 
