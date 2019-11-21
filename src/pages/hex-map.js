@@ -3,6 +3,7 @@ import styled from "styled-components"
 import { Typeahead } from "react-bootstrap-typeahead"
 import { withFauxDOM } from "react-faux-dom"
 
+import { max } from "d3-array"
 import { renderHexJSON } from "d3-hexjson"
 import { interpolateRgb } from "d3-interpolate"
 import { scaleLinear } from "d3-scale"
@@ -18,7 +19,7 @@ import hexJSON from "../data/hexmap.json"
 
 // Kind of hack to get d3-transition working with both tree-shaking and d3 modules
 // (d3-transition has side effects)
-const d3 = { interpolateRgb, scaleLinear, select, selection, transition }
+const d3 = { interpolateRgb, max, scaleLinear, select, selection, transition }
 d3.selection.prototype.transition = select_transition
 
 const Container = styled.div`
@@ -64,6 +65,7 @@ const SidePanelContainer = styled.div`
 `
 
 const groups = [
+  { label: "All", color: "black", key: "ALL" },
   { label: "🌳 Conservative", color: "blue", key: "CON" },
   { label: "🌹 Labour", color: "red", key: "LAB" },
   { label: "➡️ Brexit Party", color: "#61D8F1", key: "BRE" },
@@ -77,10 +79,39 @@ const width = 500 - margin.left - margin.right
 const height = 750 - margin.top - margin.bottom
 
 const hexes = renderHexJSON(hexJSON, width, height)
-const mergedHexes = hexes.map(hex => ({
-  ...hex,
-  ...constituencyData.constituencies.find(c => c.id === hex.key),
-}))
+const mergedHexes = hexes
+  .map(hex => ({
+    ...hex,
+    ...constituencyData.constituencies.find(c => c.id === hex.key),
+  }))
+
+  .map(mergedHex => {
+    const match = constituencyData.constituencies.find(
+      c => c.id === mergedHex.key
+    )
+
+    if (!match) {
+      return mergedHex
+    }
+
+    return {
+      ...mergedHex,
+      ALL: {
+        totalImpressions: Object.keys(match)
+          .filter(key => key !== "id")
+          .reduce((prev, key) => {
+            const match = constituencyData.constituencies.find(
+              c => c.id === mergedHex.key
+            )
+            if (!match || !match[key] || !match[key].totalImpressions) {
+              return prev
+            }
+
+            return prev + match[key].totalImpressions
+          }, 0),
+      },
+    }
+  })
 
 const AllPartyCumulativeTotalsLine = props => {
   const [selectedConstituency, setSelectedConstituency] = useState(null)
@@ -93,22 +124,9 @@ const AllPartyCumulativeTotalsLine = props => {
     const faux = props.connectFauxDOM("div", "hexMap")
     const svg = d3.select(faux).select("svg g")
 
-    const largestImpressionValue = constituencyData.constituencies.reduce(
-      (prev, current) => {
-        if (!prev[groupKey] && !current[groupKey]) {
-          return prev
-        } else if (!prev[groupKey] && current[groupKey]) {
-          return current
-        } else if (prev[groupKey] && !current[groupKey]) {
-          return prev
-        }
-
-        return prev[groupKey].totalImpressions >
-          current[groupKey].totalImpressions
-          ? prev
-          : current
-      }
-    )[groupKey].totalImpressions
+    const largestImpressionValue = d3.max(mergedHexes, d => {
+      return d && d[groupKey] && d[groupKey].totalImpressions
+    })
 
     const colorScale = d3
       .scaleLinear()
@@ -189,7 +207,7 @@ const AllPartyCumulativeTotalsLine = props => {
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
 
     // Draw map
-    drawMap("CON")
+    drawMap("ALL")
   }, [])
 
   const handleConstituencyChange = constituency => {
@@ -199,7 +217,7 @@ const AllPartyCumulativeTotalsLine = props => {
   return (
     <Layout>
       <Container>
-        <h4>Hex Map</h4>
+        <h4>Advert impressions per constituency</h4>
         <Buttons>
           {groups.map(group => (
             <Button key={group.key} onClick={() => handleClick(group.key)}>
