@@ -1,8 +1,11 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import styled from "styled-components"
 
+import AgeBreakdown from "./AgeBreakdown"
 import GenderBreakdown from "./GenderBreakdown"
-import LastElection from "./LastElection"
+// import LastElection from "./LastElection"
+
+import demographicData from "../data/demographic-breakdown.json"
 
 const Container = styled.div``
 
@@ -12,6 +15,31 @@ const Title = styled.h4`
 `
 
 const SelectedConstituencyPanel = props => {
+  const [ageData, setAgeData] = useState(null)
+
+  useEffect(() => {
+    if (!props.selectedConstituency) {
+      setAgeData(null)
+      return
+    }
+
+    const match = demographicData.constituencies.find(
+      d => d.id === props.selectedConstituency.key
+    )
+
+    if (!match) {
+      setAgeData(null)
+      return
+    }
+
+    if (!match || !match.impressions || !match.impressions.age) {
+      setAgeData(null)
+      return
+    }
+
+    setAgeData(match.impressions.age)
+  }, [props.selectedConstituency])
+
   const renderContent = () => {
     const { n } = props.selectedConstituency
 
@@ -19,6 +47,7 @@ const SelectedConstituencyPanel = props => {
       <>
         <Title>🗳 {n}</Title>
         <GenderBreakdown selectedConstituency={props.selectedConstituency} />
+        {ageData ? <AgeBreakdown data={ageData} /> : null}
         {/*<LastElection selectedConstituency={props.selectedConstituency} />*/}
       </>
     )

@@ -2,15 +2,9 @@ import React, { useEffect, useState } from "react"
 import styled from "styled-components"
 import { withFauxDOM } from "react-faux-dom"
 
-import { select } from "d3-selection"
-import { arc, pie } from "d3-shape"
-
 import GenderPie from "./GenderPie"
 
 import demographicData from "../data/demographic-breakdown.json"
-import partyColors from "../utils/partyColors"
-
-const d3 = { arc, pie, select }
 
 const Container = styled.div`
   margin-top: 36px;
@@ -31,10 +25,6 @@ const GenderPies = styled.div`
     overflow: initial !important;
   }
 `
-
-const margin = { top: 15, right: 25, bottom: 15, left: 15 }
-const width = 960 - margin.left - margin.right
-const height = 500 - margin.top - margin.bottom
 
 const GenderBreakdown = props => {
   const [menData, setMenData] = useState(null)

@@ -11,6 +11,7 @@ const partyColors = {
   Lab: "#dc241f",
   LD: "#faa61a",
   NF: "#191970",
+  Oth: "#ccc",
   Remain: "#2c4d92",
   SDLP: "#3a9e84",
   SF: "#326760",
