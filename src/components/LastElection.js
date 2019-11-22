@@ -11,6 +11,8 @@ import { select, selection } from "d3-selection"
 import { transition } from "d3-transition"
 import select_transition from "../../node_modules/d3-transition/src/selection/transition"
 
+import partyColors from "../utils/partyColors"
+
 // Kind of hack to get d3-transition working with both tree-shaking and d3 modules
 // (d3-transition has side effects)
 const d3 = {
@@ -24,25 +26,6 @@ const d3 = {
   transition,
 }
 d3.selection.prototype.transition = select_transition
-
-const partyColors = {
-  Alliance: "#f6cb2f",
-  BNP: "#2e3b74",
-  C: "#0087dc",
-  DUP: "#d46a4c",
-  "Eng Dem": "#915f6d",
-  Green: "#6ab023",
-  Ind: "#dddddd",
-  Lab: "#dc241f",
-  LD: "#faa61a",
-  NF: "#191970",
-  SDLP: "#3a9e84",
-  SF: "#326760",
-  SNP: "#fdf38e",
-  TUSC: "#ec008c",
-  UKIP: "#70147a",
-  UUP: "#48a5ee",
-}
 
 const Container = styled.div`
   margin-top: 36px;
@@ -84,7 +67,6 @@ const LastElection = props => {
     d3.select(faux)
       .append("svg")
       .attr("width", "100%")
-
       .attr("viewBox", `0 0 960 500`)
       .append("g")
       .attr("transform", `translate(${margin.left}, ${margin.top})`)
@@ -126,6 +108,7 @@ const LastElection = props => {
       .attr("y", d => y(d.node.Party))
       .attr("height", y.bandwidth())
       .attr("fill", d => partyColors[d.node.Party_Abbreviation] || "#dddddd")
+      .attr("fill-opacity", 0.7)
 
     bars
       .transition()

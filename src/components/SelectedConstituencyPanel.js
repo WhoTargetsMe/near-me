@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
+import GenderBreakdown from "./GenderBreakdown"
 import LastElection from "./LastElection"
 
 const Container = styled.div``
@@ -17,7 +18,8 @@ const SelectedConstituencyPanel = props => {
     return (
       <>
         <Title>🗳 {n}</Title>
-        <LastElection selectedConstituency={props.selectedConstituency} />
+        <GenderBreakdown selectedConstituency={props.selectedConstituency} />
+        {/*<LastElection selectedConstituency={props.selectedConstituency} />*/}
       </>
     )
   }
