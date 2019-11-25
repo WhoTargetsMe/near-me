@@ -1,5 +1,6 @@
 import React, { useEffect, useLayoutEffect, useState } from "react"
 import styled from "styled-components"
+import { DropdownButton, MenuItem } from "react-bootstrap"
 import { Typeahead } from "react-bootstrap-typeahead"
 import { withFauxDOM } from "react-faux-dom"
 
@@ -31,47 +32,52 @@ const Attribution = styled.strong`
   display: block;
 `
 
-const Buttons = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  border-bottom: 5px solid black;
-  padding-bottom: 6px;
-`
-
-const Button = styled.button`
-  margin-right: 15px;
-  border: 0;
-  padding: 6px;
-  user-select: none;
-
-  &:hover {
-    font-weight: bold;
-    text-decoration: underline;
-    cursor: pointer;
-  }
-`
-
 const MapAndData = styled.div`
   display: flex;
   flex-direction: row;
   flex: 1 0 auto;
+  margin-top: 3rem;
+`
+
+const StyledDropdownButton = styled(DropdownButton)`
+  & + .dropdown-menu {
+    width: 100%;
+  }
 `
 
 const SidePanelContainer = styled.div`
-  padding: 1rem 0;
   width: 100%;
   font-family: "Poppins", sans-serif;
 `
 
 const groups = [
-  { label: "All", color: "black", key: "ALL" },
-  { label: "🌳 Conservative", color: "blue", key: "CON" },
-  { label: "🌹 Labour", color: "red", key: "LAB" },
-  { label: "➡️ Brexit Party", color: "#61D8F1", key: "BRE" },
-  { label: "🦜 Lib Dem", color: "orange", key: "LD" },
-  { label: "🇪🇺 Remain", color: "#2c4d92", key: "Remain" },
-  { label: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Plaid Cymru", color: "green", key: "PC" },
+  { label: "All", color: "black", key: "ALL", titleLabel: "all" },
+  {
+    label: "Conservative",
+    color: "blue",
+    key: "CON",
+    titleLabel: "Conservative Party",
+  },
+  { label: "Labour", color: "red", key: "LAB", titleLabel: "Labour Party" },
+  { label: "Lib Dem", color: "orange", key: "LD", titleLabel: "Lib Dem" },
+  {
+    label: "Brexit Party",
+    color: "#61D8F1",
+    key: "BRE",
+    titleLabel: "Brexit Party",
+  },
+  {
+    label: "Plaid Cymru",
+    color: "green",
+    key: "PC",
+    titleLabel: "Plaid Cymru",
+  },
+  {
+    label: "Remain",
+    color: "#2c4d92",
+    key: "Remain",
+    titleLabel: "remain supporting",
+  },
 ]
 
 const margin = { top: 30, right: 30, bottom: 30, left: 60 }
@@ -113,12 +119,9 @@ const mergedHexes = hexes
     }
   })
 
-const AllPartyCumulativeTotalsLine = props => {
+const HexMap = props => {
   const [selectedConstituency, setSelectedConstituency] = useState(null)
-
-  const handleClick = groupKey => {
-    drawMap(groupKey)
-  }
+  const [selectedGroupKey, setSelectedGroupKey] = useState("ALL")
 
   const drawMap = groupKey => {
     const faux = props.connectFauxDOM("div", "hexMap")
@@ -179,6 +182,10 @@ const AllPartyCumulativeTotalsLine = props => {
     window.top.postMessage({ HexMapFrameSize: document.body.offsetHeight }, "*")
   }
 
+  useLayoutEffect(() => {
+    window.top.postMessage({ HexMapFrameSize: document.body.offsetHeight }, "*")
+  })
+
   useEffect(() => {
     window.addEventListener("message", e => {
       if (e.data !== "CheckSize") {
@@ -190,10 +197,6 @@ const AllPartyCumulativeTotalsLine = props => {
       })
     })
   }, [])
-
-  useLayoutEffect(() => {
-    window.top.postMessage({ HexMapFrameSize: document.body.offsetHeight }, "*")
-  })
 
   useEffect(() => {
     const faux = props.connectFauxDOM("div", "hexMap")
@@ -210,23 +213,51 @@ const AllPartyCumulativeTotalsLine = props => {
     drawMap("ALL")
   }, [])
 
+  useEffect(() => {
+    drawMap(selectedGroupKey)
+  }, [selectedGroupKey])
+
   const handleConstituencyChange = constituency => {
     setSelectedConstituency(constituency[0])
+  }
+
+  const handleSelectChange = groupKey => {
+    setSelectedGroupKey(groupKey)
   }
 
   return (
     <Layout>
       <Container>
-        <h4>Advert impressions per constituency</h4>
-        <Buttons>
-          {groups.map(group => (
-            <Button key={group.key} onClick={() => handleClick(group.key)}>
-              {group.label}
-            </Button>
-          ))}
-        </Buttons>
+        <h4>
+          {`Showing ${
+            groups.find(group => group.key === selectedGroupKey).titleLabel
+          } advert impressions per
+          constituency`}
+        </h4>
         <MapAndData>
-          {props.hexMap}
+          <div>
+            <StyledDropdownButton
+              id="group-dropdown"
+              title="Show advertising intensity by political group"
+              bsRole="toggle"
+              key={selectedConstituency ? selectedConstituency.key : "ALL"}
+              onSelect={handleSelectChange}
+            >
+              {groups.map(group => (
+                <MenuItem
+                  active={
+                    selectedConstituency &&
+                    selectedConstituency.key === group.key
+                  }
+                  eventKey={group.key}
+                  key={group.key}
+                >
+                  {group.label}
+                </MenuItem>
+              ))}
+            </StyledDropdownButton>
+            {props.hexMap}
+          </div>
           <SidePanelContainer>
             <Typeahead
               id="search-constituencies"
@@ -246,4 +277,4 @@ const AllPartyCumulativeTotalsLine = props => {
   )
 }
 
-export default withFauxDOM(AllPartyCumulativeTotalsLine)
+export default withFauxDOM(HexMap)
