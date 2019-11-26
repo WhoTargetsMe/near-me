@@ -16,8 +16,11 @@ const StyledButton = styled(Button)`
 
 const InstallWTMCTA = () => (
   <Container>
-    <StyledButton href="https://whotargets.me/en/how-who-targets-me-works/">
-      🚀 Install the WhoTargetsMe extension
+    <StyledButton
+      href="https://whotargets.me/en/how-who-targets-me-works/"
+      target="_parent"
+    >
+      🚀 Install the Who Targets Me extension
     </StyledButton>
   </Container>
 )
