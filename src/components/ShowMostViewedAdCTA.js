@@ -42,6 +42,7 @@ const ShowMostViewedAdCTA = props => {
         <Modal.Body>
           <IFrameContainer>
             <iframe
+              title={`Most viewed ad in ${props.selectedConstituency.n}`}
               width="560"
               height="315"
               src="https://www.youtube.com/embed/txY6JmP9ULg?autoplay=1"
