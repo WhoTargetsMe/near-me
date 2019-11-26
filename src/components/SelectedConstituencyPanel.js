@@ -3,6 +3,7 @@ import styled from "styled-components"
 
 import AgeBreakdown from "./AgeBreakdown"
 import GenderBreakdown from "./GenderBreakdown"
+import ShowMostViewedAdCTA from "./ShowMostViewedAdCTA"
 // import LastElection from "./LastElection"
 
 import demographicData from "../data/demographic-breakdown.json"
@@ -11,6 +12,7 @@ const Container = styled.div``
 
 const Title = styled.h4`
   display: block;
+  margin-top: 2rem;
   text-align: center;
 `
 
@@ -48,6 +50,9 @@ const SelectedConstituencyPanel = props => {
         <Title>🗳 {n}</Title>
         <GenderBreakdown selectedConstituency={props.selectedConstituency} />
         {ageData ? <AgeBreakdown data={ageData} /> : null}
+        <ShowMostViewedAdCTA
+          selectedConstituency={props.selectedConstituency}
+        />
         {/*<LastElection selectedConstituency={props.selectedConstituency} />*/}
       </>
     )
