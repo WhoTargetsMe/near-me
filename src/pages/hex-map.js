@@ -20,12 +20,44 @@ import hexJSON from "../data/hexmap.json"
 
 // Kind of hack to get d3-transition working with both tree-shaking and d3 modules
 // (d3-transition has side effects)
-const d3 = { interpolateRgb, max, scaleLinear, select, selection, transition }
+const d3 = {
+  interpolateRgb,
+  max,
+  scaleLinear,
+  select,
+  selection,
+  transition,
+}
 d3.selection.prototype.transition = select_transition
 
 const Container = styled.div`
   padding: 0.5rem;
   font-family: "Poppins", sans-serif;
+
+  polygon {
+    cursor: pointer;
+  }
+
+  .selectedHex {
+    pointer-events: none;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 0.8;
+      fill: deeppink;
+    }
+    100% {
+      transform: scale(5);
+      opacity: 0;
+      fill: deeppink;
+    }
+  }
+
+  .pulse {
+    animation: pulse 2s linear infinite;
+  }
 `
 
 const Attribution = styled.strong`
@@ -125,7 +157,7 @@ const HexMap = props => {
 
   const drawMap = groupKey => {
     const faux = props.connectFauxDOM("div", "hexMap")
-    const svg = d3.select(faux).select("svg g")
+    const fullMapG = d3.select(faux).select("svg g.fullMap")
 
     const largestImpressionValue = d3.max(mergedHexes, d => {
       return d && d[groupKey] && d[groupKey].totalImpressions
@@ -136,7 +168,7 @@ const HexMap = props => {
       .range(["#eee", groups.find(group => group.key === groupKey).color])
       .domain([0, largestImpressionValue])
 
-    const hexmap = svg.selectAll("g").data(mergedHexes)
+    const hexmap = fullMapG.selectAll("g").data(mergedHexes)
 
     const newHexes = hexmap
       .enter()
@@ -155,13 +187,20 @@ const HexMap = props => {
           return colorScale(d[groupKey].totalImpressions)
         }
       })
-      .on("mouseenter", setSelectedConstituency)
+      .on("mousedown", setSelectedConstituency)
 
     newHexes
       .merge(hexmap)
       .transition()
       .duration(450)
       .selectAll("polygon")
+      .filter(d => {
+        if (selectedConstituency) {
+          return d.key !== selectedConstituency.key
+        } else {
+          return true
+        }
+      })
       .attrTween("fill", function(d) {
         let newColor
 
@@ -180,6 +219,40 @@ const HexMap = props => {
 
     // Tell parent window iFrame might have changed height
     window.top.postMessage({ HexMapFrameSize: document.body.offsetHeight }, "*")
+  }
+
+  const drawSelectedConstituency = () => {
+    const faux = props.connectFauxDOM("div", "hexMap")
+    const selectedHexG = d3.select(faux).select("svg g.selectedHex")
+
+    const selectedHex =
+      selectedConstituency &&
+      mergedHexes.find(mergedHex => mergedHex.key === selectedConstituency.key)
+
+    const selectedHexData =
+      selectedHex === null || selectedHex === undefined ? [] : [selectedHex]
+    const selected = selectedHexG.selectAll("g").data(selectedHexData)
+
+    const newlySelected = selected
+      .enter()
+      .append("g")
+      .attr("transform", hex => `translate(${hex.x}, ${hex.y})`)
+      .append("polygon")
+      .attr("class", "pulse")
+      .attr("points", hex => hex.points)
+
+    newlySelected
+      .merge(selected)
+      .attr("transform", hex => `translate(${hex.x}, ${hex.y})`)
+      .selectAll("polygon")
+      .attr("class", "pulse")
+
+    newlySelected
+      .exit()
+      .selectAll("polygon")
+      .attr("class", "")
+
+    props.drawFauxDOM()
   }
 
   useLayoutEffect(() => {
@@ -201,12 +274,21 @@ const HexMap = props => {
   useEffect(() => {
     const faux = props.connectFauxDOM("div", "hexMap")
 
-    d3.select(faux)
+    const svg = d3
+      .select(faux)
       .append("svg")
       .attr("id", "hex-map-container")
       .attr("width", width + margin.left + margin.right)
       .attr("height", height + margin.top + margin.bottom)
+
+    svg
       .append("g")
+      .attr("class", "fullMap")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+
+    svg
+      .append("g")
+      .attr("class", "selectedHex")
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
 
     // Draw map
@@ -216,6 +298,10 @@ const HexMap = props => {
   useEffect(() => {
     drawMap(selectedGroupKey)
   }, [selectedGroupKey])
+
+  useEffect(() => {
+    drawSelectedConstituency()
+  }, [selectedConstituency])
 
   const handleConstituencyChange = constituency => {
     setSelectedConstituency(constituency[0])
