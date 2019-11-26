@@ -1,6 +1,8 @@
-import React, { useState } from "react"
+import React, { useEffect, useLayoutEffect, useState } from "react"
 import styled from "styled-components"
 import { Button, Modal } from "react-bootstrap"
+
+import demographicData from "../data/demographic-breakdown.json"
 
 const Container = styled.div`
   display: flex;
@@ -22,10 +24,37 @@ const IFrameContainer = styled.div`
 `
 
 const ShowMostViewedAdCTA = props => {
+  const [ad, setAd] = useState(null)
   const [showModal, setShowModal] = useState(false)
 
   const handleClick = () => {
     setShowModal(!showModal)
+  }
+
+  useEffect(() => {
+    const match = demographicData.constituencies.find(
+      d => d.id === props.selectedConstituency.key
+    )
+
+    if (!match || !match.top_post) {
+      setAd(null)
+      return
+    }
+
+    setAd(match.top_post)
+  }, [props.selectedConstituency])
+
+  useLayoutEffect(() => {
+    if (window.FB) {
+      window.FB.init({
+        version: "v5.0",
+        xfbml: true,
+      })
+    }
+  })
+
+  if (!ad) {
+    return null
   }
 
   return (
@@ -41,14 +70,13 @@ const ShowMostViewedAdCTA = props => {
         </Modal.Header>
         <Modal.Body>
           <IFrameContainer>
-            <iframe
-              title={`Most viewed ad in ${props.selectedConstituency.n}`}
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/txY6JmP9ULg?autoplay=1"
-              frameBorder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
+            <div
+              className="fb-post"
+              data-href={`https://www.facebook.com/${ad.advertiserId}/posts/${
+                ad.postId
+              }`}
+              data-width="500"
+              data-show-text="true"
             />
           </IFrameContainer>
         </Modal.Body>
