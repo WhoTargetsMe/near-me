@@ -91,12 +91,11 @@ const groups = [
     titleLabel: "Conservative Party",
   },
   { label: "Labour", color: "red", key: "LAB", titleLabel: "Labour Party" },
-  { label: "Lib Dem", color: "orange", key: "LD", titleLabel: "Lib Dem" },
   {
-    label: "Brexit Party",
-    color: "#61D8F1",
-    key: "BRE",
-    titleLabel: "Brexit Party",
+    label: "Liberal Democrats",
+    color: "orange",
+    key: "LD",
+    titleLabel: "Liberal Democrats",
   },
   {
     label: "Plaid Cymru",
@@ -105,10 +104,10 @@ const groups = [
     titleLabel: "Plaid Cymru",
   },
   {
-    label: "Remain",
-    color: "#2c4d92",
-    key: "Remain",
-    titleLabel: "remain supporting",
+    label: "Brexit Party",
+    color: "#61D8F1",
+    key: "BRE",
+    titleLabel: "Brexit Party",
   },
 ]
 
