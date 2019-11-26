@@ -346,6 +346,7 @@ const HexMap = props => {
           </div>
           <SidePanelContainer>
             <Typeahead
+              autoFocus
               id="search-constituencies"
               placeholder="Search constituencies"
               options={mergedHexes}
