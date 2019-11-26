@@ -3,6 +3,7 @@ import styled from "styled-components"
 
 import AgeBreakdown from "./AgeBreakdown"
 import GenderBreakdown from "./GenderBreakdown"
+import InstallWTMCTA from "./InstallWTMCTA"
 import ShowMostViewedAdCTA from "./ShowMostViewedAdCTA"
 // import LastElection from "./LastElection"
 
@@ -53,6 +54,7 @@ const SelectedConstituencyPanel = props => {
         <ShowMostViewedAdCTA
           selectedConstituency={props.selectedConstituency}
         />
+        <InstallWTMCTA />
         {/*<LastElection selectedConstituency={props.selectedConstituency} />*/}
       </>
     )
