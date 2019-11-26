@@ -21,7 +21,7 @@ const GenderPies = styled.div`
   height: 150px;
 
   svg {
-    flex: 1 0 auto;
+    flex: 1 1 auto;
     overflow: initial !important;
   }
 `
