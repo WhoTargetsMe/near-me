@@ -13,8 +13,23 @@ const Container = styled.div`
 
 const StyledButton = styled(Button)`
   &.btn {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    margin: 1rem 0;
     max-width: 75%;
     white-space: normal;
+    font-size: 16px;
+    transition: color 0.3s ease, border-color 0.3s ease;
+    color: #03c49d;
+    border-color: #03c49d;
+    background-color: transparent;
+
+    &:hover {
+      color: #fcd549;
+      border-color: #fcd549;
+      background-color: transparent;
+    }
   }
 `
 
