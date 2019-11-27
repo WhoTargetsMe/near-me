@@ -8,31 +8,67 @@ const Container = styled.div`
   align-items: center;
   text-align: center;
 `
+
+const Buttons = styled.div`
+  display: flex;
+  flex-direction: row;
+`
+
 const StyledButton = styled(Button)`
   &.btn {
-    margin: 2rem 0;
-    max-width: 75%;
-    white-space: normal;
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    margin: 1rem 0;
+    font-size: 16px;
+    transition: color 0.3s ease, border-color 0.3s ease;
+    color: #03c49d;
+    border-color: #03c49d;
+    background-color: transparent;
+
+    &:first-of-type {
+      margin-right: 10px;
+    }
+
+    &:hover {
+      color: #fcd549;
+      border-color: #fcd549;
+      background-color: transparent;
+    }
+
+    img {
+      margin-left: 5px;
+    }
   }
 `
 
 const InstallWTMCTA = () => (
   <Container>
-    <p>
-      We have a chance to bring more transparency to British Elections. We're on
-      a mission to crowdsource a database of every political Facebook ad this
-      election. Now we need your help.
-    </p>
-    <StyledButton
-      href="https://whotargets.me/en/how-who-targets-me-works/"
-      target="_parent"
-    >
-      🚀 Get involved — download our browser extension
-    </StyledButton>
-    <p>
-      It's simple and safe, and the anonymous data you collect will help build a
-      clearer picture of how politicians are targeting all of us.
-    </p>
+    <Buttons>
+      <StyledButton
+        href="https://chrome.google.com/webstore/detail/who-targets-me/fcejbjalmgocomoinikjejnkimlnoljp?hl=en"
+        target="_parent"
+      >
+        For Chrome
+        <img
+          width="25"
+          height="25"
+          src="https://whotargets.me/wp-content/uploads/2017/04/unnamed.png"
+        />
+      </StyledButton>
+
+      <StyledButton
+        href="https://addons.mozilla.org/en-US/firefox/addon/who-targets-me-firefox/"
+        target="_parent"
+      >
+        For Firefox
+        <img
+          width="25"
+          height="25"
+          src="https://whotargets.me/wp-content/uploads/2017/05/mozilla-firefox.png"
+        />
+      </StyledButton>
+    </Buttons>
   </Container>
 )
 
