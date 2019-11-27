@@ -4,6 +4,7 @@ import styled from "styled-components"
 import AgeBreakdown from "./AgeBreakdown"
 import GenderBreakdown from "./GenderBreakdown"
 import InstallWTMCTA from "./InstallWTMCTA"
+import MarginalAlert from "./MarginalAlert"
 import ShowMostViewedAdCTA from "./ShowMostViewedAdCTA"
 // import LastElection from "./LastElection"
 
@@ -49,6 +50,7 @@ const SelectedConstituencyPanel = props => {
     return (
       <>
         <Title>🗳 {n}</Title>
+        {/*<MarginalAlert selectedConstituency={props.selectedConstituency} />*/}
         <GenderBreakdown selectedConstituency={props.selectedConstituency} />
         {ageData ? <AgeBreakdown data={ageData} /> : null}
         <ShowMostViewedAdCTA

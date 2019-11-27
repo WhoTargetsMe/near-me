@@ -4,7 +4,7 @@ import { Button } from "react-bootstrap"
 
 const Container = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: ${props => (props.horizontal ? "row" : "column")};
   align-items: center;
   text-align: center;
 `
@@ -28,6 +28,7 @@ const StyledButton = styled(Button)`
 
     &:first-of-type {
       margin-right: 10px;
+      margin-left: ${props => (props.horizontal ? "10px" : "0")};
     }
 
     &:hover {
@@ -42,10 +43,12 @@ const StyledButton = styled(Button)`
   }
 `
 
-const InstallWTMCTA = () => (
-  <Container>
+const InstallWTMCTA = props => (
+  <Container horizontal={props.horizontal}>
+    <strong>Install the Who Targets Me browser extension:</strong>
     <Buttons>
       <StyledButton
+        horizontal={props.horizontal ? 1 : 0}
         href="https://chrome.google.com/webstore/detail/who-targets-me/fcejbjalmgocomoinikjejnkimlnoljp?hl=en"
         target="_parent"
       >

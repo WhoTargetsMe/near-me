@@ -13,6 +13,7 @@ import { transition } from "d3-transition"
 import select_transition from "../../node_modules/d3-transition/src/selection/transition"
 
 import Layout from "../components/layout"
+import MarginalAlert from "../components/MarginalAlert"
 import SelectedConstituencyPanel from "../components/SelectedConstituencyPanel"
 
 import constituencyData from "../data/constituency-data.json"
@@ -320,6 +321,9 @@ const HexMap = props => {
   return (
     <Layout>
       <Container>
+        {selectedConstituency ? (
+          <MarginalAlert selectedConstituency={selectedConstituency} />
+        ) : null}
         <h4>
           {`Showing ${
             groups.find(group => group.key === selectedGroupKey).titleLabel
