@@ -1,1187 +1,3568 @@
 {
   "constituencies": [
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
       "id": "E14001005"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "LD": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 12.0, "totalImpressions": 12 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 22.0, "totalImpressions": 22 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "S14000041"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 12,
+        "totalImpressions": 12
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 22,
+        "totalImpressions": 22
+      },
       "id": "E14001031"
     },
     {
-      "BRE": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.5, "totalImpressions": 3 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 7.0, "totalImpressions": 7 },
-      "id": "E14000656"
-    },
-    {
-      "LAB": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 8 },
-      "LD": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "id": "E14000789"
-    },
-    {
-      "LD": { "avgPerUserPerCampaignPeriod": 6.0, "totalImpressions": 6 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 16,
+        "totalImpressions": 16
+      },
       "id": "E14000628"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "id": "E14000661"
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 8
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14000789"
     },
     {
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "id": "E14000623"
+      "BRE": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 4
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 7,
+        "totalImpressions": 7
+      },
+      "id": "E14000656"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 5.0, "totalImpressions": 5 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "id": "E14000663"
-    },
-    {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "id": "E14000808"
-    },
-    {
-      "BRE": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "BRE": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14001039"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 6 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "id": "E14000623"
+    },
+    {
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14000663"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14000661"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14000808"
+    },
+    {
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 6
+      },
       "id": "E14000779"
     },
     {
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000540"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "LD": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 4
+      },
+      "Gre": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2.7,
+        "totalImpressions": 8
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 8,
+        "totalImpressions": 8
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 3.5,
+        "totalImpressions": 7
+      },
       "id": "E14000980"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 2 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
       "id": "E14001042"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 7.0, "totalImpressions": 7 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 17.0, "totalImpressions": 17 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 7,
+        "totalImpressions": 7
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 18,
+        "totalImpressions": 18
+      },
       "id": "E14000895"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 10.0, "totalImpressions": 10 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 10,
+        "totalImpressions": 10
+      },
       "id": "E14000788"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
       "id": "E14000960"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 5.0, "totalImpressions": 5 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 12.0, "totalImpressions": 12 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 14.0, "totalImpressions": 14 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 15,
+        "totalImpressions": 15
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 14,
+        "totalImpressions": 14
+      },
       "id": "E14000705"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000948"
     },
     {
-      "BRE": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
+      "BRE": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
       "id": "W07000066"
     },
     {
-      "BRE": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "CON": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
+      "BRE": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000651"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 2.7,
+        "totalImpressions": 8
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14001040"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000844"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 4 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 6
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 4
+      },
       "id": "E14000837"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000625"
     },
     {
-      "BRE": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
+      "BRE": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
       "id": "E14000847"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "N06000003"
     },
     {
-      "BRE": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 5.0, "totalImpressions": 5 },
+      "BRE": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
       "id": "W07000055"
     },
     {
-      "LD": { "avgPerUserPerCampaignPeriod": 5.5, "totalImpressions": 11 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.8, "totalImpressions": 11 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 3
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 4
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 8.5,
+        "totalImpressions": 17
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2.8,
+        "totalImpressions": 11
+      },
       "id": "E14000937"
     },
     {
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14001052"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
       "id": "E14000889"
     },
     {
-      "NI": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "NI": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
       "id": "N06000004"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 8 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 2.5, "totalImpressions": 5 },
-      "LD": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 7.5, "totalImpressions": 15 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 4.5,
+        "totalImpressions": 9
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 8
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 9,
+        "totalImpressions": 9
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 8,
+        "totalImpressions": 16
+      },
       "id": "E14000874"
     },
     {
-      "LD": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "id": "E14000550"
-    },
-    {
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 3.5,
+        "totalImpressions": 7
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 2.5,
+        "totalImpressions": 5
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
       "id": "E14000641"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14000550"
+    },
+    {
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000642"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "id": "E14000564"
+    },
+    {
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "id": "E14000880"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000956"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
       "id": "E14000689"
     },
     {
-      "LD": { "avgPerUserPerCampaignPeriod": 6.0, "totalImpressions": 6 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 9.0, "totalImpressions": 18 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 7,
+        "totalImpressions": 7
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 9,
+        "totalImpressions": 18
+      },
       "id": "E14000875"
     },
     {
-      "BRE": { "avgPerUserPerCampaignPeriod": 9.0, "totalImpressions": 9 },
-      "CON": { "avgPerUserPerCampaignPeriod": 6.0, "totalImpressions": 6 },
+      "BRE": {
+        "avgPerUserPerCampaignPeriod": 9,
+        "totalImpressions": 9
+      },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 6,
+        "totalImpressions": 6
+      },
       "id": "E14000941"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
       "id": "E14000749"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
       "id": "E14000845"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 6
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000697"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
       "id": "E14000924"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
       "id": "E14001032"
     },
     {
-      "BRE": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 5.0, "totalImpressions": 5 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 17.0, "totalImpressions": 17 },
+      "BRE": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 4.5,
+        "totalImpressions": 9
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 3
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 19,
+        "totalImpressions": 19
+      },
       "id": "E14000873"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "LD": { "avgPerUserPerCampaignPeriod": 21.0, "totalImpressions": 21 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 4 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14000869"
+    },
+    {
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2.5,
+        "totalImpressions": 5
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 38,
+        "totalImpressions": 38
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 4.5,
+        "totalImpressions": 9
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000768"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
       "id": "E14000824"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 8 },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14000865"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 8
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000660"
     },
     {
-      "BRE": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "id": "E14000609"
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "id": "E14000821"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.5, "totalImpressions": 3 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 6
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000882"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 4 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 6.5, "totalImpressions": 13 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 8 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
+      "id": "E14000636"
+    },
+    {
+      "BRE": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "id": "E14000609"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 4
+      },
+      "Gre": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 6
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 9.5,
+        "totalImpressions": 19
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 8
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000922"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 6
+      },
       "id": "E14000951"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 3.5, "totalImpressions": 7 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 4 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 4.5,
+        "totalImpressions": 9
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 3.5,
+        "totalImpressions": 7
+      },
       "id": "S14000037"
     },
     {
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "S14000001"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LD": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14000725"
+    },
+    {
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1.3,
+        "totalImpressions": 4
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000673"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 13.0, "totalImpressions": 13 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 8.0, "totalImpressions": 8 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 15,
+        "totalImpressions": 15
+      },
+      "Gre": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 8,
+        "totalImpressions": 8
+      },
       "id": "E14000973"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
       "id": "E14000818"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
       "id": "E14001022"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 4.5,
+        "totalImpressions": 9
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14000863"
+    },
+    {
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000896"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
-      "LD": { "avgPerUserPerCampaignPeriod": 6.0, "totalImpressions": 6 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 9,
+        "totalImpressions": 9
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
       "id": "W07000052"
     },
     {
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 11.0, "totalImpressions": 11 },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 11,
+        "totalImpressions": 11
+      },
       "id": "E14000852"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 5.0, "totalImpressions": 5 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
       "id": "E14000804"
     },
     {
-      "LD": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 8,
+        "totalImpressions": 8
+      },
       "id": "W07000060"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
-      "LD": { "avgPerUserPerCampaignPeriod": 2.7, "totalImpressions": 8 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 8 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 4.3,
+        "totalImpressions": 13
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 10
+      },
       "id": "E14000887"
     },
     {
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000679"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 6
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
       "id": "E14000780"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "LD": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 2 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 4
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
       "id": "E14000676"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000963"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.7, "totalImpressions": 5 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Gre": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 6
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1.3,
+        "totalImpressions": 4
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000602"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
-      "id": "W07000079"
-    },
-    {
-      "LAB": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "LD": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 10,
+        "totalImpressions": 10
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
       "id": "S14000029"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.5, "totalImpressions": 3 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
+      "id": "W07000079"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 8
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14001019"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 17.5, "totalImpressions": 35 },
+      "BRE": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 12,
+        "totalImpressions": 36
+      },
       "id": "E14000878"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000630"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LD": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 4 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 4 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 2.3,
+        "totalImpressions": 7
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 4
+      },
       "id": "S14000031"
     },
     {
-      "BRE": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "CON": { "avgPerUserPerCampaignPeriod": 4.5, "totalImpressions": 18 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 11.5, "totalImpressions": 23 },
-      "LD": { "avgPerUserPerCampaignPeriod": 5.0, "totalImpressions": 15 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 2 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 14.3, "totalImpressions": 43 },
+      "BRE": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 5.3,
+        "totalImpressions": 21
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 18.3,
+        "totalImpressions": 73
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 9.7,
+        "totalImpressions": 29
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 14.7,
+        "totalImpressions": 44
+      },
       "id": "E14000702"
     },
     {
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000605"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 8.0, "totalImpressions": 8 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 8,
+        "totalImpressions": 8
+      },
+      "SNP": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "S14000053"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 4.7, "totalImpressions": 14 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.5, "totalImpressions": 3 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 12.7,
+        "totalImpressions": 38
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
       "id": "E14000763"
     },
     {
-      "BRE": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "CON": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LD": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 8.0, "totalImpressions": 8 },
+      "BRE": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 4
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 8,
+        "totalImpressions": 8
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 8,
+        "totalImpressions": 8
+      },
       "id": "W07000078"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
       "id": "E14000785"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 12.0, "totalImpressions": 12 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 2 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 4 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 8,
+        "totalImpressions": 16
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 4
+      },
       "id": "E14000778"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 6.0, "totalImpressions": 6 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 5.0, "totalImpressions": 5 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 5.0, "totalImpressions": 5 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 6,
+        "totalImpressions": 6
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 7,
+        "totalImpressions": 7
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
       "id": "E14000928"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 6.0, "totalImpressions": 6 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 33.5, "totalImpressions": 67 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 6,
+        "totalImpressions": 6
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 33.5,
+        "totalImpressions": 67
+      },
       "id": "E14000757"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
-      "LD": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 4 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14000741"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1.4,
+        "totalImpressions": 7
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14001008"
     },
     {
-      "LD": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 4.5,
+        "totalImpressions": 9
+      },
       "id": "S14000045"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 7.0, "totalImpressions": 7 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 7,
+        "totalImpressions": 7
+      },
       "id": "E14000556"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 7.0, "totalImpressions": 14 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.7, "totalImpressions": 5 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.5, "totalImpressions": 5 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 10.5,
+        "totalImpressions": 21
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 6
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2.5,
+        "totalImpressions": 5
+      },
       "id": "E14000555"
     },
     {
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 13.0, "totalImpressions": 13 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "S14000023"
+    },
+    {
+      "BRE": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 13,
+        "totalImpressions": 13
+      },
       "id": "E14000938"
     },
     {
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "id": "E14000830"
-    },
-    {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 4
+      },
       "id": "E14000822"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 9.0, "totalImpressions": 9 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 26.0, "totalImpressions": 52 },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "id": "E14000830"
+    },
+    {
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 9,
+        "totalImpressions": 9
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 26,
+        "totalImpressions": 52
+      },
       "id": "E14000748"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
       "id": "E14000751"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14000835"
+    },
+    {
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000721"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.5, "totalImpressions": 3 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 4 },
-      "LD": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "BRE": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 4
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
       "id": "E14001009"
     },
     {
-      "LD": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "S14000022"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14000950"
+    },
+    {
+      "Gre": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
       "id": "E14000704"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 5.0, "totalImpressions": 5 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
+      "id": "E14000719"
+    },
+    {
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14000996"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
       "id": "E14000746"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 2 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000915"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 8.0, "totalImpressions": 16 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 2 },
-      "LD": { "avgPerUserPerCampaignPeriod": 2.8, "totalImpressions": 22 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 4 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 4 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 4.5,
+        "totalImpressions": 18
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2.2,
+        "totalImpressions": 11
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 5.3,
+        "totalImpressions": 48
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 3.8,
+        "totalImpressions": 15
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1.4,
+        "totalImpressions": 7
+      },
       "id": "E14000617"
     },
     {
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1.3,
+        "totalImpressions": 4
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
       "id": "E14000629"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000578"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 12.0, "totalImpressions": 12 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 6.0, "totalImpressions": 6 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 17.0, "totalImpressions": 17 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 14,
+        "totalImpressions": 14
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 6,
+        "totalImpressions": 6
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 17,
+        "totalImpressions": 17
+      },
       "id": "E14000662"
     },
     {
-      "Oth": { "avgPerUserPerCampaignPeriod": 3.5, "totalImpressions": 7 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 11.0, "totalImpressions": 11 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 3.5,
+        "totalImpressions": 7
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 11,
+        "totalImpressions": 11
+      },
       "id": "E14000998"
     },
     {
-      "LD": { "avgPerUserPerCampaignPeriod": 23.0, "totalImpressions": 23 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 43,
+        "totalImpressions": 43
+      },
       "id": "E14000993"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 9.0, "totalImpressions": 9 },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 9,
+        "totalImpressions": 9
+      },
       "id": "E14000912"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
       "id": "E14000585"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.5, "totalImpressions": 3 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 2 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 4
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
       "id": "E14000720"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "W07000080"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000530"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
       "id": "E14000885"
     },
     {
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
+      "id": "E14000919"
+    },
+    {
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
       "id": "E14000669"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 6 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 3.5, "totalImpressions": 7 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 4.5,
+        "totalImpressions": 9
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 3.5,
+        "totalImpressions": 7
+      },
       "id": "E14000597"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
       "id": "E14000680"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 7.0, "totalImpressions": 7 },
-      "id": "E14000743"
-    },
-    {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 7,
+        "totalImpressions": 7
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000727"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 8 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 12.0, "totalImpressions": 12 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 8.0, "totalImpressions": 8 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 4 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 7,
+        "totalImpressions": 7
+      },
+      "id": "E14000743"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 8
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 19,
+        "totalImpressions": 19
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 8,
+        "totalImpressions": 8
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2.5,
+        "totalImpressions": 5
+      },
       "id": "E14001013"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 17.0, "totalImpressions": 17 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 17,
+        "totalImpressions": 17
+      },
       "id": "E14000599"
     },
     {
-      "LD": { "avgPerUserPerCampaignPeriod": 9.0, "totalImpressions": 18 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 15,
+        "totalImpressions": 30
+      },
       "id": "S14000005"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14001055"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
       "id": "E14001018"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 7.0, "totalImpressions": 7 },
-      "LD": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 6 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 20.0, "totalImpressions": 20 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 13,
+        "totalImpressions": 13
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 7,
+        "totalImpressions": 14
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 21,
+        "totalImpressions": 21
+      },
+      "SNP": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "S14000025"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 5.0, "totalImpressions": 5 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
       "id": "E14000631"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 11.0, "totalImpressions": 11 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 34,
+        "totalImpressions": 34
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000750"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14000730"
+    },
+    {
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14001002"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "id": "W07000051"
+    },
+    {
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14001054"
+    },
+    {
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000769"
     },
     {
-      "Oth": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
       "id": "E14000906"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000691"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 4 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 12
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
       "id": "E14000552"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "id": "E14000842"
+    },
+    {
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
       "id": "E14001058"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
       "id": "E14000955"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 5.0, "totalImpressions": 5 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 9.0, "totalImpressions": 9 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "W07000054"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 9,
+        "totalImpressions": 9
+      },
       "id": "E14000686"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 2.5, "totalImpressions": 5 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 6
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000860"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.5, "totalImpressions": 3 },
-      "LD": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 6.0, "totalImpressions": 6 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 7,
+        "totalImpressions": 7
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "id": "E14000710"
+    },
+    {
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
+      "id": "E14000747"
+    },
+    {
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "S14000057"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1.7,
+        "totalImpressions": 5
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 4.5,
+        "totalImpressions": 9
+      },
       "id": "S14000026"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
       "id": "E14000929"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 7.0, "totalImpressions": 7 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 19,
+        "totalImpressions": 19
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
       "id": "S14000018"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "id": "E14000793"
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "id": "E14001060"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 5.5, "totalImpressions": 11 },
-      "LD": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 3.5, "totalImpressions": 7 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 8.5,
+        "totalImpressions": 17
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 7,
+        "totalImpressions": 7
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 8
+      },
       "id": "S14000033"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.5, "totalImpressions": 3 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
       "id": "E14000640"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 2 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 4 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 3
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 4
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000764"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 2.5, "totalImpressions": 5 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 4.7, "totalImpressions": 14 },
-      "LD": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 6 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.3, "totalImpressions": 7 },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14000793"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 2.5,
+        "totalImpressions": 5
+      },
+      "Gre": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 5.3,
+        "totalImpressions": 16
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 9,
+        "totalImpressions": 18
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2.3,
+        "totalImpressions": 7
+      },
       "id": "E14000598"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000807"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 5.0, "totalImpressions": 5 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 21.0, "totalImpressions": 21 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "S14000016"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 22,
+        "totalImpressions": 22
+      },
       "id": "E14001023"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
       "id": "S14000024"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 3.5, "totalImpressions": 7 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 6,
+        "totalImpressions": 12
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000703"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Gre": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14000600"
+    },
+    {
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
       "id": "S14000002"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14000723"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000817"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "id": "E14000795"
-    },
-    {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "S14000044"
     },
     {
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 6 },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14000795"
+    },
+    {
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 3.5,
+        "totalImpressions": 7
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 6
+      },
       "id": "E14000639"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.5, "totalImpressions": 3 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 8.0, "totalImpressions": 16 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 19.5, "totalImpressions": 39 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 7.7,
+        "totalImpressions": 23
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 19.5,
+        "totalImpressions": 39
+      },
       "id": "E14000809"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 5.0, "totalImpressions": 5 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 22.0, "totalImpressions": 22 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 13.5, "totalImpressions": 27 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 6,
+        "totalImpressions": 6
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 22,
+        "totalImpressions": 22
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 14,
+        "totalImpressions": 28
+      },
       "id": "E14000918"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 14.0, "totalImpressions": 14 },
-      "id": "E14000935"
-    },
-    {
-      "LAB": { "avgPerUserPerCampaignPeriod": 5.0, "totalImpressions": 5 },
-      "LD": { "avgPerUserPerCampaignPeriod": 9.0, "totalImpressions": 9 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 9,
+        "totalImpressions": 9
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 27,
+        "totalImpressions": 27
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
       "id": "W07000059"
     },
     {
-      "Oth": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 6 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 15,
+        "totalImpressions": 15
+      },
+      "id": "E14000935"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 6
+      },
       "id": "E14000953"
     },
     {
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 4 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 4
+      },
       "id": "E14000831"
     },
     {
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.5, "totalImpressions": 3 },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
       "id": "E14000728"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
       "id": "E14000803"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 2 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Gre": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2.5,
+        "totalImpressions": 5
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 2.4,
+        "totalImpressions": 12
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 4
+      },
       "id": "E14000978"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 7.0, "totalImpressions": 7 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 29.0, "totalImpressions": 29 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14000994"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 8,
+        "totalImpressions": 8
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 29,
+        "totalImpressions": 29
+      },
       "id": "E14000932"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000939"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 9.0, "totalImpressions": 9 },
-      "PC": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 28,
+        "totalImpressions": 28
+      },
+      "PC": {
+        "avgPerUserPerCampaignPeriod": 6,
+        "totalImpressions": 6
+      },
       "id": "W07000041"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
       "id": "E14000753"
     },
     {
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14001021"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "LD": { "avgPerUserPerCampaignPeriod": 6.0, "totalImpressions": 6 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 14,
+        "totalImpressions": 14
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "SNP": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
       "id": "E14000909"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000976"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 11.0, "totalImpressions": 11 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 4.5,
+        "totalImpressions": 9
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 11,
+        "totalImpressions": 11
+      },
       "id": "E14000633"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 2.3, "totalImpressions": 7 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 6 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 12.7,
+        "totalImpressions": 38
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 6
+      },
       "id": "E14000645"
     },
     {
-      "LD": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
       "id": "E14000549"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 2 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "S14000049"
+    },
+    {
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2.5,
+        "totalImpressions": 5
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2.5,
+        "totalImpressions": 5
+      },
       "id": "E14000776"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 13.5, "totalImpressions": 27 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 10.7, "totalImpressions": 32 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
+      "Gre": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 22.5,
+        "totalImpressions": 45
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 10.7,
+        "totalImpressions": 32
+      },
       "id": "E14000876"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 9.0, "totalImpressions": 9 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 9,
+        "totalImpressions": 9
+      },
       "id": "E14000826"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LD": { "avgPerUserPerCampaignPeriod": 8.0, "totalImpressions": 8 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 4 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "id": "E14000832"
+    },
+    {
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "id": "S14000020"
+    },
+    {
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 6
+      },
+      "id": "E14000820"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 6.5,
+        "totalImpressions": 13
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2.5,
+        "totalImpressions": 5
+      },
       "id": "E14000786"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
       "id": "E14001038"
     },
     {
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 4.5, "totalImpressions": 9 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 4.5,
+        "totalImpressions": 9
+      },
       "id": "E14000934"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "id": "E14000708"
-    },
-    {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
       "id": "E14001048"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 16.0, "totalImpressions": 16 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14000708"
+    },
+    {
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 20,
+        "totalImpressions": 20
+      },
       "id": "E14001015"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000813"
     },
     {
-      "LD": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 6,
+        "totalImpressions": 6
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000726"
     },
     {
-      "LD": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
       "id": "E14000718"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14000731"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000823"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2.3,
+        "totalImpressions": 7
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000619"
     },
     {
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 6.5, "totalImpressions": 13 },
-      "id": "E14000539"
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "S14000021"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
-      "LD": { "avgPerUserPerCampaignPeriod": 5.0, "totalImpressions": 10 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.5, "totalImpressions": 3 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 3 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 12.5,
+        "totalImpressions": 25
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 3
+      },
       "id": "E14000615"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 2 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 6.5,
+        "totalImpressions": 13
+      },
+      "id": "E14000539"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 6
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000762"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
       "id": "E14000760"
     },
     {
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000995"
     },
     {
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
       "id": "E14001061"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000866"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 4
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000674"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "LD": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000732"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "id": "E14000787"
-    },
-    {
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "id": "E14001004"
-    },
-    {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
       "id": "E14000886"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 6 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.3, "totalImpressions": 4 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14000787"
+    },
+    {
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14001004"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 6
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 8
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1.3,
+        "totalImpressions": 4
+      },
       "id": "E14000547"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14000984"
+    },
+    {
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
+      "id": "E14001033"
+    },
+    {
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
       "id": "E14000574"
     },
     {
-      "LD": { "avgPerUserPerCampaignPeriod": 16.0, "totalImpressions": 16 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 29,
+        "totalImpressions": 29
+      },
       "id": "E14000838"
     },
     {
-      "BRE": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "CON": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 14.0, "totalImpressions": 14 },
+      "BRE": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 14,
+        "totalImpressions": 14
+      },
       "id": "E14000952"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000986"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
       "id": "E14000664"
     },
     {
-      "PC": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "W07000058"
+    },
+    {
+      "PC": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "W07000061"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "id": "E14000864"
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 6,
+        "totalImpressions": 6
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 17,
+        "totalImpressions": 17
+      },
+      "id": "E14000603"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "LD": { "avgPerUserPerCampaignPeriod": 3.5, "totalImpressions": 7 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 6.5,
+        "totalImpressions": 13
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000698"
     },
     {
-      "LD": { "avgPerUserPerCampaignPeriod": 2.5, "totalImpressions": 5 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 2 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 2.5,
+        "totalImpressions": 5
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
       "id": "E14000553"
     },
     {
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
       "id": "E14000635"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
+      "BRE": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2.5,
+        "totalImpressions": 5
+      },
       "id": "W07000057"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "id": "E14000670"
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
+      "id": "E14000864"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 9 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 5.0, "totalImpressions": 5 },
-      "LD": { "avgPerUserPerCampaignPeriod": 5.5, "totalImpressions": 11 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.5, "totalImpressions": 5 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 9
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 7,
+        "totalImpressions": 14
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2.5,
+        "totalImpressions": 5
+      },
       "id": "E14001041"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "id": "E14001028"
+    },
+    {
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14000670"
+    },
+    {
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "S14000035"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 12.0, "totalImpressions": 12 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 21.0, "totalImpressions": 21 },
-      "id": "E14000999"
-    },
-    {
-      "LAB": { "avgPerUserPerCampaignPeriod": 2.5, "totalImpressions": 5 },
-      "LD": { "avgPerUserPerCampaignPeriod": 7.0, "totalImpressions": 14 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 7.0, "totalImpressions": 7 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 6.5, "totalImpressions": 13 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 6,
+        "totalImpressions": 12
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 12.5,
+        "totalImpressions": 25
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 7,
+        "totalImpressions": 7
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 7,
+        "totalImpressions": 14
+      },
       "id": "E14000601"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 8.0, "totalImpressions": 8 },
-      "LD": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.5, "totalImpressions": 3 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 12,
+        "totalImpressions": 12
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 22,
+        "totalImpressions": 22
+      },
+      "id": "E14000999"
+    },
+    {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 8,
+        "totalImpressions": 8
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "totalImpressions": 3
+      },
       "id": "E14000790"
     },
     {
-      "LD": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
       "id": "E14001046"
     },
     {
-      "BRE": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "CON": { "avgPerUserPerCampaignPeriod": 3.5, "totalImpressions": 7 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 10.0, "totalImpressions": 10 },
-      "LD": { "avgPerUserPerCampaignPeriod": 12.0, "totalImpressions": 12 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 22.0, "totalImpressions": 22 },
+      "BRE": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 7,
+        "totalImpressions": 14
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 10,
+        "totalImpressions": 10
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 18,
+        "totalImpressions": 18
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 24,
+        "totalImpressions": 24
+      },
       "id": "E14000624"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 4.0, "totalImpressions": 4 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 4,
+        "totalImpressions": 4
+      },
       "id": "E14001047"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000974"
     },
     {
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "N06000002"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 5.0, "totalImpressions": 5 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 5,
+        "totalImpressions": 5
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000846"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 5.0, "totalImpressions": 5 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 2 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 6
+      },
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
       "id": "E14000593"
     },
     {
-      "BRE": { "avgPerUserPerCampaignPeriod": 6.0, "totalImpressions": 6 },
-      "CON": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Oth": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 3.0, "totalImpressions": 3 },
+      "BRE": {
+        "avgPerUserPerCampaignPeriod": 6,
+        "totalImpressions": 6
+      },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Oth": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 3,
+        "totalImpressions": 3
+      },
       "id": "E14000833"
     },
     {
-      "LD": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "E14000971"
+    },
+    {
+      "LD": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14001062"
     },
     {
-      "LAB": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "id": "W07000068"
+    },
+    {
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
       "id": "E14000700"
     },
     {
-      "CON": { "avgPerUserPerCampaignPeriod": 2.0, "totalImpressions": 2 },
-      "Remain": { "avgPerUserPerCampaignPeriod": 1.0, "totalImpressions": 1 },
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 2,
+        "totalImpressions": 2
+      },
+      "Remain": {
+        "avgPerUserPerCampaignPeriod": 1,
+        "totalImpressions": 1
+      },
       "id": "E14000534"
     }
   ]
