@@ -97,11 +97,18 @@ const groups = [
     key: "LD",
     titleLabel: "Liberal Democrats",
   },
+  { label: "SNP", color: "navy", key: "SNP", titleLabel: "SNP" },
   {
     label: "Plaid Cymru",
     color: "green",
     key: "PC",
     titleLabel: "Plaid Cymru",
+  },
+  {
+    label: "Green Party",
+    color: "green",
+    key: "Gre",
+    titleLabel: "Green Party",
   },
   {
     label: "Brexit Party",
