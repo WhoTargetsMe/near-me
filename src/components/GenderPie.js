@@ -79,7 +79,7 @@ const GenderPie = props => {
         .append("tspan")
         .attr("x", 0)
         .attr("y", "0.7em")
-        .text(d => `${d.data.percentage}%`)
+        .text(d => `${d.data.percentage.toFixed(0)}%`)
 
       props.animateFauxDOM(100)
     }
