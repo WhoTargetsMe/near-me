@@ -99,6 +99,7 @@ const SidePanelContainer = styled.div`
     bottom: 0;
     left: 0;
     visibility: ${props => (props.isVisible ? "visible" : "hidden")};
+    max-width: none;
   }
 `
 
@@ -390,7 +391,6 @@ const HexMap = props => {
               ))}
             </StyledDropdownButton>
             <MobileTypeahead
-              autoFocus
               id="search-constituencies-mobile"
               placeholder="Search constituencies"
               options={mergedHexes}
