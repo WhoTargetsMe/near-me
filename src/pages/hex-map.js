@@ -321,9 +321,6 @@ const HexMap = props => {
   return (
     <Layout>
       <Container>
-        {selectedConstituency ? (
-          <MarginalAlert selectedConstituency={selectedConstituency} />
-        ) : null}
         <h4>
           {`Showing ${
             groups.find(group => group.key === selectedGroupKey).titleLabel

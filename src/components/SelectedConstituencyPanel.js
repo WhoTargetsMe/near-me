@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react"
+import { graphql, useStaticQuery } from "gatsby"
 import styled from "styled-components"
 
 import AgeBreakdown from "./AgeBreakdown"
 import GenderBreakdown from "./GenderBreakdown"
 import InstallWTMCTA from "./InstallWTMCTA"
 import MarginalAlert from "./MarginalAlert"
+import NoDataCTA from "./NoDataCTA"
 import ShowMostViewedAdCTA from "./ShowMostViewedAdCTA"
 // import LastElection from "./LastElection"
 
@@ -20,6 +22,30 @@ const Title = styled.h4`
 
 const SelectedConstituencyPanel = props => {
   const [ageData, setAgeData] = useState(null)
+
+  const [genderData, setGenderData] = useState(null)
+
+  const marginal = useStaticQuery(graphql`
+    query {
+      allMarginalsCsv {
+        edges {
+          node {
+            Code
+            Constituency
+            Majority
+            Majority_Party
+            Runner_up_party
+            Party
+          }
+        }
+      }
+    }
+  `).allMarginalsCsv.edges.find(d => {
+    if (!props.selectedConstituency || !props.selectedConstituency.key) {
+      return false
+    }
+    return d.node.Code === props.selectedConstituency.key
+  })
 
   useEffect(() => {
     if (!props.selectedConstituency) {
@@ -44,19 +70,50 @@ const SelectedConstituencyPanel = props => {
     setAgeData(match.impressions.age)
   }, [props.selectedConstituency])
 
+  useEffect(() => {
+    if (!props.selectedConstituency) {
+      setGenderData(null)
+      return
+    }
+
+    const match = demographicData.constituencies.find(
+      d => d.id === props.selectedConstituency.key
+    )
+
+    if (!match || !match.impressions || !match.impressions.gender) {
+      setGenderData(null)
+      return
+    }
+
+    const menData = match.impressions.gender.find(g => g.param === "men")
+    const womenData = match.impressions.gender.find(g => g.param === "women")
+
+    setGenderData({
+      menData: menData ? menData : null,
+      womenData: womenData ? womenData : null,
+    })
+  }, [props.selectedConstituency])
+
   const renderContent = () => {
     const { n } = props.selectedConstituency
 
     return (
       <>
         <Title>🗳 {n}</Title>
-        {/*<MarginalAlert selectedConstituency={props.selectedConstituency} />*/}
-        <GenderBreakdown selectedConstituency={props.selectedConstituency} />
+        {marginal ? (
+          <MarginalAlert
+            marginal={marginal}
+            selectedConstituency={props.selectedConstituency}
+          />
+        ) : null}
+        {genderData ? <GenderBreakdown genderData={genderData} /> : null}
         {ageData ? <AgeBreakdown data={ageData} /> : null}
         <ShowMostViewedAdCTA
           selectedConstituency={props.selectedConstituency}
         />
-        <InstallWTMCTA />
+
+        {!marginal && (genderData || ageData) ? <InstallWTMCTA /> : null}
+        {!marginal && !genderData && !ageData ? <NoDataCTA /> : null}
         {/*<LastElection selectedConstituency={props.selectedConstituency} />*/}
       </>
     )

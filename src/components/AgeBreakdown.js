@@ -50,18 +50,12 @@ const barHeight = dataLength => dataLength * 40 + margin.top + margin.bottom
 
 const AgeBreakdown = props => {
   useEffect(() => {
-    const createSvg = () => {
+    const drawChart = () => {
       const faux = props.connectFauxDOM("svg", "ageChart")
-
       d3.select(faux)
         .attr("viewBox", `0 0 500 ${barHeight(props.data.length)}`)
         .append("g")
 
-      props.animateFauxDOM(100)
-    }
-
-    const drawChart = () => {
-      const faux = props.connectFauxDOM("div", "ageChart")
       const svg = d3.select(faux).select("svg g")
       svg.selectAll("*").remove()
 
@@ -127,12 +121,11 @@ const AgeBreakdown = props => {
             .attr("font-size", "15")
         )
 
-      props.animateFauxDOM(100)
+      props.drawFauxDOM()
     }
 
-    createSvg()
     drawChart()
-  }, [props])
+  }, [props.data])
 
   if (!props.ageChart) {
     return null

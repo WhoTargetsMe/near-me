@@ -1,5 +1,4 @@
 import React from "react"
-import { graphql, useStaticQuery } from "gatsby"
 import styled from "styled-components"
 import { Alert } from "react-bootstrap"
 
@@ -23,24 +22,7 @@ const PartyNames = {
 }
 
 const MarginalAlert = props => {
-  const marginal = useStaticQuery(graphql`
-    query {
-      allMarginalsCsv {
-        edges {
-          node {
-            Code
-            Constituency
-            Majority
-            Majority_Party
-            Runner_up_party
-            Party
-          }
-        }
-      }
-    }
-  `).allMarginalsCsv.edges.find(
-    d => d.node.Code === props.selectedConstituency.key
-  )
+  const { marginal } = props
 
   if (!marginal || !marginal.node) {
     return null
@@ -61,7 +43,7 @@ const MarginalAlert = props => {
           </strong>
         </p>
         <p>We need your help. Get involved — download our browser extension.</p>
-        <InstallWTMCTA horizontal />
+        <InstallWTMCTA />
       </Alert>
     </Container>
   )

@@ -4,8 +4,6 @@ import { withFauxDOM } from "react-faux-dom"
 
 import GenderPie from "./GenderPie"
 
-import demographicData from "../data/demographic-breakdown.json"
-
 const Container = styled.div`
   margin-top: 36px;
 `
@@ -27,26 +25,7 @@ const GenderPies = styled.div`
 `
 
 const GenderBreakdown = props => {
-  const [menData, setMenData] = useState(null)
-  const [womenData, setWomenData] = useState(null)
-
-  useEffect(() => {
-    const match = demographicData.constituencies.find(
-      d => d.id === props.selectedConstituency.key
-    )
-
-    if (!match || !match.impressions || !match.impressions.gender) {
-      setMenData(null)
-      setWomenData(null)
-      return
-    }
-
-    const menData = match.impressions.gender.find(g => g.param === "men")
-    const womenData = match.impressions.gender.find(g => g.param === "women")
-
-    setMenData(menData ? menData : null)
-    setWomenData(womenData ? womenData : null)
-  }, [props.selectedConstituency])
+  const { menData, womenData } = props.genderData
 
   if (!menData && !womenData) {
     return null
