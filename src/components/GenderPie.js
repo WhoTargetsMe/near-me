@@ -4,8 +4,8 @@ import { withFauxDOM } from "react-faux-dom"
 import { select } from "d3-selection"
 import { arc, pie } from "d3-shape"
 
+import partyAbbrs from "../utils/partyAbbrs"
 import partyColors from "../utils/partyColors"
-import partyNames from "../utils/partyNames"
 
 const d3 = { arc, pie, select }
 
@@ -58,21 +58,10 @@ const GenderPie = props => {
     newData
       .join("text")
       .attr("transform", d => `translate(${arc.centroid(d)})`)
-      .attr("font-size", 65)
+      .attr("font-size", 80)
       .call(text => text.append("tspan"))
-      .attr("y", "-0.4em")
-      .text(d => partyNames[d.data.party])
-
-    newData
-      .join("text")
-      .attr("transform", d => `translate(${arc.centroid(d)})`)
-      .attr("font-size", 55)
-      .attr("fill-opacity", 0.7)
-      .call(text => text.filter(d => d.value > 0.25))
-      .append("tspan")
-      .attr("x", 0)
-      .attr("y", "0.7em")
-      .text(d => `${d.data.percentage.toFixed(0)}%`)
+      .attr("y", "0.2em")
+      .text(d => partyAbbrs[d.data.party])
 
     props.drawFauxDOM()
   }
