@@ -5,8 +5,14 @@ import { Alert } from "react-bootstrap"
 import InstallWTMCTA from "./InstallWTMCTA"
 
 const Container = styled.div`
+  margin-top: 2rem;
+
   .alert p {
     margin-bottom: 2rem;
+  }
+
+  @media (min-width: 768px) {
+    margin-top: 0;
   }
 `
 

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import styled from "styled-components"
+import { Button, Glyphicon } from "react-bootstrap"
 
 import AgeBreakdown from "./AgeBreakdown"
 import GenderBreakdown from "./GenderBreakdown"
@@ -12,11 +13,29 @@ import ShowMostViewedAdCTA from "./ShowMostViewedAdCTA"
 
 import demographicData from "../data/demographic-breakdown.json"
 
-const Container = styled.div``
+const Container = styled.div`
+  background-color: white;
+`
+
+const StyledButton = styled(Button)``
+
+const TitleAndClose = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    margin-top: 2rem;
+
+    ${StyledButton} {
+      display: none;
+    }
+  }
+`
 
 const Title = styled.h4`
+  flex: 1;
   display: block;
-  margin-top: 2rem;
   text-align: center;
 `
 
@@ -99,7 +118,12 @@ const SelectedConstituencyPanel = props => {
 
     return (
       <>
-        <Title>🗳 {n}</Title>
+        <TitleAndClose>
+          <Title>🗳 {n}</Title>
+          <StyledButton onClick={props.onUnselectConstituency}>
+            <Glyphicon glyph="remove" />
+          </StyledButton>
+        </TitleAndClose>
         {marginal ? (
           <MarginalAlert
             marginal={marginal}

@@ -34,6 +34,10 @@ const Container = styled.div`
   padding: 0.5rem;
   font-family: "Poppins", sans-serif;
 
+  svg {
+    max-width: 100%;
+  }
+
   polygon {
     cursor: pointer;
   }
@@ -68,7 +72,12 @@ const MapAndData = styled.div`
   display: flex;
   flex-direction: row;
   flex: 1 0 auto;
+  position: relative;
   margin-top: 3rem;
+`
+
+const MapContainer = styled.div`
+  flex: 1 0 auto;
 `
 
 const StyledDropdownButton = styled(DropdownButton)`
@@ -79,7 +88,35 @@ const StyledDropdownButton = styled(DropdownButton)`
 
 const SidePanelContainer = styled.div`
   width: 100%;
+  max-width: 400px;
   font-family: "Poppins", sans-serif;
+  background-color: white;
+
+  @media (max-width: 768px) {
+    position: absolute;
+    top: 10rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    visibility: ${props => (props.isVisible ? "visible" : "hidden")};
+  }
+`
+
+const MobileTypeahead = styled(Typeahead)`
+  display: block;
+  margin-top: 1rem;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+`
+
+const NotMobileTypeahead = styled(Typeahead)`
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
 `
 
 const groups = [
@@ -284,8 +321,12 @@ const HexMap = props => {
       .select(faux)
       .append("svg")
       .attr("id", "hex-map-container")
-      .attr("width", width + margin.left + margin.right)
-      .attr("height", height + margin.top + margin.bottom)
+      .attr(
+        "viewBox",
+        `0 0 ${width + margin.left + margin.right} ${height +
+          margin.top +
+          margin.bottom}`
+      )
 
     svg
       .append("g")
@@ -327,7 +368,7 @@ const HexMap = props => {
           constituency`}
         </h4>
         <MapAndData>
-          <div>
+          <MapContainer>
             <StyledDropdownButton
               id="group-dropdown"
               title="Show advertising intensity by political group"
@@ -348,10 +389,18 @@ const HexMap = props => {
                 </MenuItem>
               ))}
             </StyledDropdownButton>
+            <MobileTypeahead
+              autoFocus
+              id="search-constituencies-mobile"
+              placeholder="Search constituencies"
+              options={mergedHexes}
+              onChange={handleConstituencyChange}
+              labelKey={option => option.n}
+            />
             {props.hexMap}
-          </div>
-          <SidePanelContainer>
-            <Typeahead
+          </MapContainer>
+          <SidePanelContainer isVisible={!!selectedConstituency}>
+            <NotMobileTypeahead
               autoFocus
               id="search-constituencies"
               placeholder="Search constituencies"
@@ -361,6 +410,7 @@ const HexMap = props => {
             />
             <SelectedConstituencyPanel
               selectedConstituency={selectedConstituency}
+              onUnselectConstituency={() => setSelectedConstituency(null)}
             />
           </SidePanelContainer>
         </MapAndData>
