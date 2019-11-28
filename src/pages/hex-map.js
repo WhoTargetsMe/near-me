@@ -13,7 +13,6 @@ import { transition } from "d3-transition"
 import select_transition from "../../node_modules/d3-transition/src/selection/transition"
 
 import Layout from "../components/layout"
-import MarginalAlert from "../components/MarginalAlert"
 import SelectedConstituencyPanel from "../components/SelectedConstituencyPanel"
 
 import constituencyData from "../data/constituency-data.json"

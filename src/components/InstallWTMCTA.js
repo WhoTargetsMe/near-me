@@ -57,6 +57,7 @@ const InstallWTMCTA = props => (
           width="25"
           height="25"
           src="https://whotargets.me/wp-content/uploads/2017/04/unnamed.png"
+          alt="Chrome logo"
         />
       </StyledButton>
 
@@ -69,6 +70,7 @@ const InstallWTMCTA = props => (
           width="25"
           height="25"
           src="https://whotargets.me/wp-content/uploads/2017/05/mozilla-firefox.png"
+          alt="Firefox logo"
         />
       </StyledButton>
     </Buttons>
