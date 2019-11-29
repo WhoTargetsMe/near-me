@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { graphql, useStaticQuery } from "gatsby"
 import { Button, ButtonGroup, Table } from "react-bootstrap"
 import styled from "styled-components"
 
@@ -6,7 +7,26 @@ import InstallWTMCTA from "../components/InstallWTMCTA"
 import Layout from "../components/layout"
 
 import constituencyData from "../data/constituency-data.json"
-import hexmap from "../data/hexmap.json"
+import partyColors from "../utils/partyColors"
+
+const Title = styled.h2`
+  margin-bottom: 0;
+`
+
+const SubTitle = styled.h3`
+  margin-top: 5px;
+  margin-bottom: 20px;
+`
+
+const TableContainer = styled.div`
+  margin-bottom: 2rem;
+  max-height: 80rem;
+  overflow-y: auto;
+`
+
+const StyledTable = styled(Table)`
+  max-height: 60rem;
+`
 
 const data = constituencyData.constituencies
   .map(constituency => ({
@@ -34,10 +54,6 @@ const data = constituencyData.constituencies
       },
     }
   })
-  .map(constituency => ({
-    ...constituency,
-    name: hexmap.hexes[constituency.id].n,
-  }))
 
 const NoDataContainer = styled.div`
   display: flex;
@@ -50,7 +66,7 @@ const Buttons = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 1rem;
+  margin-top: 3rem;
   padding: 0 10px;
 `
 
@@ -98,7 +114,30 @@ const parties = [
 const Leaderboard = props => {
   const [filter, setFilter] = useState("ALL")
 
-  const sortedData = data
+  const majorityData = useStaticQuery(graphql`
+    query {
+      allMajorityCsv {
+        edges {
+          node {
+            Constituency
+            Code
+            Party
+            Majority
+          }
+        }
+      }
+    }
+  `).allMajorityCsv.edges
+
+  // Concatenate date
+  const mergedData = data.map(constituency => {
+    return {
+      ...constituency,
+      ...majorityData.find(d => d.node.Code === constituency.id),
+    }
+  })
+
+  const sortedData = mergedData
     .filter(d => !!d[filter])
     .filter(d => d[filter].avgPerUserPerCampaignPeriod >= 5)
     .sort(
@@ -118,31 +157,56 @@ const Leaderboard = props => {
   )
 
   const renderTable = () => (
-    <div>
-      <Table hover striped>
-        <thead>
-          <tr>
-            <th>Rank</th>
-            <th>Constituency</th>
-            <th>Ad/user</th>
-          </tr>
-        </thead>
-        <tbody>
-          {sortedData.map((d, index) => (
-            <tr key={d.id}>
-              <th>{index + 1}</th>
-              <th>{d.name}</th>
-              <th>{+d[filter].avgPerUserPerCampaignPeriod.toFixed(1)}</th>
+    <>
+      <TableContainer>
+        <StyledTable hover striped>
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Constituency</th>
+              <th>Ad/user</th>
+              <th>2017 Winning Party</th>
+              <th>
+                <p>Current Majority</p>
+                <p>(number of votes)</p>
+              </th>
             </tr>
-          ))}
-        </tbody>
-      </Table>
+          </thead>
+          <tbody>
+            {sortedData.map((d, index) => (
+              <tr key={d.id}>
+                <td>{index + 1}</td>
+                <td>{d.node.Constituency}</td>
+                <td>{+d[filter].avgPerUserPerCampaignPeriod.toFixed(1)}</td>
+                <td style={{ color: partyColors[d.node["Party"]] }}>
+                  {d.node.Party}
+                </td>
+                <td>{d.node.Majority}</td>
+              </tr>
+            ))}
+          </tbody>
+        </StyledTable>
+      </TableContainer>
       <InstallWTMCTA />
-    </div>
+    </>
   )
+
+  const subtitleSuffix = () => {
+    if (filter === "ALL") {
+      return ""
+    }
+
+    return `, paid for by the ${
+      parties.find(party => party.filter === filter).label
+    }`
+  }
 
   return (
     <Layout>
+      <Title>Leaderboard</Title>
+      <SubTitle>
+        Average number of political ads viewed{subtitleSuffix()}
+      </SubTitle>
       <Buttons>
         <ButtonGroup>
           {parties.map(party => (
