@@ -3,6 +3,7 @@ import { graphql, useStaticQuery } from "gatsby"
 import { Button, ButtonGroup, Table } from "react-bootstrap"
 import styled from "styled-components"
 
+import InstallWTMAlert from "../components/InstallWTMAlert"
 import InstallWTMCTA from "../components/InstallWTMCTA"
 import Layout from "../components/layout"
 
@@ -207,6 +208,7 @@ const Leaderboard = props => {
       <SubTitle>
         Average number of political ads viewed{subtitleSuffix()}
       </SubTitle>
+      <InstallWTMAlert />
       <Buttons>
         <ButtonGroup>
           {parties.map(party => (
