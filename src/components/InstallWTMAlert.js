@@ -59,7 +59,9 @@ const InstallWTMCTA = props => (
     <Container>
       <Prompt>
         <p>We need your help. </p>
-        <strong>Install the Who Targets Me browser extension.</strong>
+        <strong>
+          Help make this data better by installing Who Targets Me.
+        </strong>
       </Prompt>
       <Buttons>
         <StyledButton
