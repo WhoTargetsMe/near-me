@@ -8,6 +8,7 @@ import InstallWTMCTA from "../components/InstallWTMCTA"
 import Layout from "../components/layout"
 
 import constituencyData from "../data/constituency-data.json"
+import userCounts from "../data/users-by-constituency.json"
 import partyColors from "../utils/partyColors"
 
 const Title = styled.h2`
@@ -42,16 +43,16 @@ const data = constituencyData.constituencies
     },
   }))
   .map(constituency => {
-    const numberOfPartiesInConstituency = Object.keys(constituency).filter(
-      key => key !== "id"
-    ).length
+    const numberOfUsersInConstituency = userCounts.find(
+      c => c.geoid === constituency.id
+    ).count
 
     return {
       ...constituency,
       ALL: {
         avgPerUserPerCampaignPeriod:
           constituency.ALL.avgPerUserPerCampaignPeriod /
-          numberOfPartiesInConstituency,
+          numberOfUsersInConstituency,
       },
     }
   })
@@ -75,6 +76,10 @@ const StyledButton = styled(Button)`
   &.btn {
     margin-bottom: 1rem;
   }
+`
+
+const DataDisclaimer = styled.div`
+  margin-bottom: 3rem;
 `
 
 const parties = [
@@ -165,7 +170,7 @@ const Leaderboard = props => {
             <tr>
               <th>Rank</th>
               <th>Constituency</th>
-              <th>Ad/user</th>
+              <th>Avg. Ads per User*</th>
               <th>2017 Winning Party</th>
               <th>
                 <p>Current Majority</p>
@@ -188,6 +193,12 @@ const Leaderboard = props => {
           </tbody>
         </StyledTable>
       </TableContainer>
+      <DataDisclaimer>
+        <strong>
+          *Average ads seen by users by constituency in the period since the GE
+          campaign started
+        </strong>
+      </DataDisclaimer>
       <InstallWTMCTA />
     </>
   )
