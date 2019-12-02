@@ -6,6 +6,8 @@ const partyColors = {
   Conservative: "#0087dc",
   DUP: "#d46a4c",
   "Eng Dem": "#915f6d",
+  Gre: "#6ab023",
+  GRE: "#6ab023",
   Green: "#6ab023",
   Ind: "#dddddd",
   LAB: "#dc241f",
