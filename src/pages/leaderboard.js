@@ -142,7 +142,7 @@ const Leaderboard = props => {
     }
   `).allMajorityCsv.edges
 
-  // Concatenate date
+  // Concatenate data
   const mergedData = data.map(constituency => {
     return {
       ...constituency,
@@ -152,12 +152,12 @@ const Leaderboard = props => {
 
   const sortedData = mergedData
     .filter(d => !!d[filter])
-    .filter(d => d[filter].avgPerUserPerCampaignPeriod >= 5)
     .sort(
       (a, b) =>
         b[filter].avgPerUserPerCampaignPeriod -
         a[filter].avgPerUserPerCampaignPeriod
     )
+    .slice(0, 100)
 
   const renderNoData = () => (
     <NoDataContainer>
