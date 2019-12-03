@@ -199,7 +199,6 @@ const Leaderboard = props => {
           campaign started
         </strong>
       </DataDisclaimer>
-      <InstallWTMCTA />
     </>
   )
 
@@ -234,6 +233,7 @@ const Leaderboard = props => {
         </ButtonGroup>
       </Buttons>
       {sortedData.length ? renderTable() : renderNoData()}
+      <InstallWTMAlert />
     </Layout>
   )
 }

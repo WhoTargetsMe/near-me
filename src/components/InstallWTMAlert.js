@@ -14,7 +14,7 @@ const Container = styled.div`
   }
 `
 
-const Prompt = styled.div`
+const Prompt = styled.strong`
   @media (min-width: 768px) {
     max-width: 45%;
   }
@@ -57,19 +57,14 @@ const StyledButton = styled(Button)`
 const InstallWTMCTA = props => (
   <Alert>
     <Container>
-      <Prompt>
-        <p>We need your help. </p>
-        <strong>
-          Help make this data better by installing Who Targets Me.
-        </strong>
-      </Prompt>
+      <Prompt>Help make this data better by installing Who Targets Me</Prompt>
       <Buttons>
         <StyledButton
           horizontal={props.horizontal ? 1 : 0}
           href="https://chrome.google.com/webstore/detail/who-targets-me/fcejbjalmgocomoinikjejnkimlnoljp?hl=en"
           target="_parent"
         >
-          For Chrome
+          Install for Chrome
           <img
             width="25"
             height="25"
@@ -81,7 +76,7 @@ const InstallWTMCTA = props => (
           href="https://addons.mozilla.org/en-US/firefox/addon/who-targets-me-firefox/"
           target="_parent"
         >
-          For Firefox
+          Install for Firefox
           <img
             width="25"
             height="25"
