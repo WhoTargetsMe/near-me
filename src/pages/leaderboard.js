@@ -223,7 +223,7 @@ const Leaderboard = props => {
     <Layout>
       <Title>Leaderboard</Title>
       <SubTitle>
-        Average number of political ads viewed{subtitleSuffix()}
+        Average number of political ads per user seen{subtitleSuffix()}
       </SubTitle>
       <InstallWTMAlert />
       <Buttons>
