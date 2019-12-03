@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react"
+import React, { useState } from "react"
 import { graphql, useStaticQuery } from "gatsby"
-import { Button, ButtonGroup, Modal, Table } from "react-bootstrap"
+import { Button, ButtonGroup, Glyphicon, Modal, Table } from "react-bootstrap"
 import styled from "styled-components"
 
 import InstallWTMAlert from "../components/InstallWTMAlert"
@@ -29,6 +29,7 @@ const TableContainer = styled.div`
 
 const StyledTable = styled(Table)`
   max-height: 60rem;
+  text-align: center;
 
   tr {
     cursor: pointer;
@@ -92,6 +93,10 @@ const StyledButton = styled(Button)`
   &.btn {
     margin-bottom: 1rem;
   }
+`
+
+const ChangeIcon = styled(Glyphicon)`
+  color: #aaa;
 `
 
 const DataDisclaimer = styled.div`
@@ -192,6 +197,7 @@ const Leaderboard = props => {
         <StyledTable hover striped>
           <thead>
             <tr>
+              <th>Trend</th>
               <th>Rank</th>
               <th>Constituency</th>
               <th>Avg. Ads per User*</th>
@@ -205,6 +211,9 @@ const Leaderboard = props => {
           <tbody>
             {sortedData.map((d, index) => (
               <tr key={d.id} onClick={() => setSelectedConstituency(d)}>
+                <td>
+                  <ChangeIcon glyph="arrow-right" title="No change" />
+                </td>
                 <td>{index + 1}</td>
                 <td>{d.node.Constituency}</td>
                 <td>{+d[filter].avgPerUserPerCampaignPeriod.toFixed(1)}</td>
