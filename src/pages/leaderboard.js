@@ -31,6 +31,10 @@ const StyledTable = styled(Table)`
 `
 
 const data = constituencyData.constituencies
+  .filter(constituency => {
+    const match = userCounts.find(d => d.geoid === constituency.id)
+    return match.count >= 5
+  })
   .map(constituency => ({
     ...constituency,
     ALL: {
@@ -49,11 +53,18 @@ const data = constituencyData.constituencies
 
     return {
       ...constituency,
-      ALL: {
-        avgPerUserPerCampaignPeriod:
-          constituency.ALL.avgPerUserPerCampaignPeriod /
-          numberOfUsersInConstituency,
-      },
+      ...Object.keys(constituency)
+        .filter(d => d !== "id")
+        .reduce((prev, key) => {
+          return {
+            ...prev,
+            [key]: {
+              avgPerUserPerCampaignPeriod:
+                constituency[key].avgPerUserPerCampaignPeriod /
+                numberOfUsersInConstituency,
+            },
+          }
+        }, {}),
     }
   })
 
@@ -225,7 +236,7 @@ const Leaderboard = props => {
       <SubTitle>
         Average number of political ads per user seen{subtitleSuffix()}
       </SubTitle>
-      <h5>Last updated: 2nd December 2019</h5>
+      <h5>Last updated: 3rd December 2019</h5>
       <InstallWTMAlert />
       <Buttons>
         <ButtonGroup>
