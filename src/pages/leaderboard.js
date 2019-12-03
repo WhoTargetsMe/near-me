@@ -31,6 +31,16 @@ const StyledTable = styled(Table)`
   max-height: 60rem;
   text-align: center;
 
+  th {
+    text-transform: uppercase;
+    text-align: center;
+    color: #666;
+
+    .no-bottom-margin {
+      margin-bottom: 0;
+    }
+  }
+
   tr {
     cursor: pointer;
   }
@@ -85,7 +95,7 @@ const Buttons = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 3rem;
+  margin: 3rem 0 1rem 0;
   padding: 0 10px;
 `
 
@@ -203,8 +213,8 @@ const Leaderboard = props => {
               <th>Avg. Ads per User*</th>
               <th>2017 Winning Party</th>
               <th>
-                <p>Current Majority</p>
-                <p>(number of votes)</p>
+                <p className="no-bottom-margin">Current Majority</p>
+                <p className="no-bottom-margin">(number of votes)</p>
               </th>
             </tr>
           </thead>
@@ -214,7 +224,9 @@ const Leaderboard = props => {
                 <td>
                   <ChangeIcon glyph="arrow-right" title="No change" />
                 </td>
-                <td>{index + 1}</td>
+                <td>
+                  <strong>{index + 1}</strong>
+                </td>
                 <td>{d.node.Constituency}</td>
                 <td>{+d[filter].avgPerUserPerCampaignPeriod.toFixed(1)}</td>
                 <td style={{ color: partyColors[d.node["Party"]] }}>
