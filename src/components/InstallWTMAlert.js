@@ -15,6 +15,8 @@ const Container = styled.div`
 `
 
 const Prompt = styled.strong`
+  font-size: 16px;
+
   @media (min-width: 768px) {
     max-width: 45%;
   }
@@ -22,7 +24,12 @@ const Prompt = styled.strong`
 
 const Buttons = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
 `
 
 const StyledButton = styled(Button)`
@@ -37,9 +44,11 @@ const StyledButton = styled(Button)`
     border-color: #03c49d;
     background-color: transparent;
 
-    &:first-of-type {
-      margin-right: 10px;
-      margin-left: ${props => (props.horizontal ? "10px" : "0")};
+    @media (min-width: 768px) {
+      &:first-of-type {
+        margin-right: 10px;
+        margin-left: ${props => (props.horizontal ? "10px" : "0")};
+      }
     }
 
     &:hover {
