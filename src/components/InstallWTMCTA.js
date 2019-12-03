@@ -45,7 +45,7 @@ const StyledButton = styled(Button)`
 
 const InstallWTMCTA = props => (
   <Container horizontal={props.horizontal}>
-    <strong>Install the Who Targets Me browser extension:</strong>
+    <strong>Install the Who Targets Me browser extension</strong>
     <Buttons>
       <StyledButton
         horizontal={props.horizontal ? 1 : 0}

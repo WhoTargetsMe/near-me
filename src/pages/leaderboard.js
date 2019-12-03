@@ -1,11 +1,12 @@
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 import { graphql, useStaticQuery } from "gatsby"
-import { Button, ButtonGroup, Table } from "react-bootstrap"
+import { Button, ButtonGroup, Modal, Table } from "react-bootstrap"
 import styled from "styled-components"
 
 import InstallWTMAlert from "../components/InstallWTMAlert"
 import InstallWTMCTA from "../components/InstallWTMCTA"
 import Layout from "../components/layout"
+import LeaderboardModalBody from "../components/LeaderboardModalBody"
 
 import constituencyData from "../data/constituency-data.json"
 import userCounts from "../data/users-by-constituency.json"
@@ -28,6 +29,10 @@ const TableContainer = styled.div`
 
 const StyledTable = styled(Table)`
   max-height: 60rem;
+
+  tr {
+    cursor: pointer;
+  }
 `
 
 const data = constituencyData.constituencies
@@ -137,6 +142,7 @@ const parties = [
 
 const Leaderboard = props => {
   const [filter, setFilter] = useState("ALL")
+  const [selectedConstituency, setSelectedConstituency] = useState(null)
 
   const majorityData = useStaticQuery(graphql`
     query {
@@ -198,7 +204,7 @@ const Leaderboard = props => {
           </thead>
           <tbody>
             {sortedData.map((d, index) => (
-              <tr key={d.id}>
+              <tr key={d.id} onClick={() => setSelectedConstituency(d)}>
                 <td>{index + 1}</td>
                 <td>{d.node.Constituency}</td>
                 <td>{+d[filter].avgPerUserPerCampaignPeriod.toFixed(1)}</td>
@@ -210,6 +216,22 @@ const Leaderboard = props => {
             ))}
           </tbody>
         </StyledTable>
+        <Modal
+          show={selectedConstituency !== null}
+          onHide={() => setSelectedConstituency(null)}
+        >
+          <Modal.Header closeButton>
+            <Modal.Title>
+              {selectedConstituency && selectedConstituency.node.Constituency}
+            </Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <LeaderboardModalBody selectedConstituency={selectedConstituency} />
+          </Modal.Body>
+          <Modal.Footer>
+            <Button onClick={() => setSelectedConstituency(null)}>Close</Button>
+          </Modal.Footer>
+        </Modal>
       </TableContainer>
       <DataDisclaimer>
         <strong>
