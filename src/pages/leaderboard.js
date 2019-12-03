@@ -90,30 +90,37 @@ const parties = [
   {
     filter: "CON",
     label: "Conservative Party",
+    titleLabel: "the Conservative Party",
   },
   {
     filter: "LAB",
     label: "Labour Party",
+    titleLabel: "the Labour Party",
   },
   {
     filter: "LD",
     label: "Liberal Democrats",
+    titleLabel: "the Liberal Democrats",
   },
   {
     filter: "SNP",
     label: "SNP",
+    titleLabel: "the SNP",
   },
   {
     filter: "PC",
     label: "Plaid Cymru",
+    titleLabel: "Plaid Cymru",
   },
   {
     filter: "GRE",
     label: "Green Party",
+    titleLabel: "the Green Party",
   },
   {
     filter: "BRE",
     label: "Brexit Party",
+    titleLabel: "the Brexit Party",
   },
 ]
 
@@ -207,8 +214,8 @@ const Leaderboard = props => {
       return ""
     }
 
-    return `, paid for by the ${
-      parties.find(party => party.filter === filter).label
+    return `, paid for by ${
+      parties.find(party => party.filter === filter).titleLabel
     }`
   }
 
