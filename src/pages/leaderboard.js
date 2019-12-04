@@ -35,10 +35,6 @@ const StyledTable = styled(Table)`
     text-transform: uppercase;
     text-align: center;
     color: #666;
-
-    .no-bottom-margin {
-      margin-bottom: 0;
-    }
   }
 
   tr {
@@ -257,10 +253,7 @@ const Leaderboard = props => {
               <th>Avg. Ads per User*</th>
               <th>Trend ** </th>
               <th>2017 Winning Party</th>
-              <th>
-                <p className="no-bottom-margin">Current Majority</p>
-                <p className="no-bottom-margin">(number of votes)</p>
-              </th>
+              <th>Majority</th>
             </tr>
           </thead>
           <tbody>
