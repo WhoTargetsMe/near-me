@@ -20,6 +20,10 @@ const Prompt = styled.strong`
   @media (min-width: 768px) {
     max-width: 45%;
   }
+
+  p {
+    margin: 0;
+  }
 `
 
 const Buttons = styled.div`
@@ -66,7 +70,9 @@ const StyledButton = styled(Button)`
 const InstallWTMCTA = props => (
   <Alert>
     <Container>
-      <Prompt>Help make this data better by installing Who Targets Me</Prompt>
+      <Prompt>
+        Help make this data better by installing <p>Who Targets Me</p>
+      </Prompt>
       <Buttons>
         <StyledButton
           horizontal={props.horizontal ? 1 : 0}

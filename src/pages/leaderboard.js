@@ -19,6 +19,7 @@ const Title = styled.h2`
 const SubTitle = styled.h3`
   margin-top: 5px;
   margin-bottom: 20px;
+  font-size: 20px;
 `
 
 const TableContainer = styled.div`
@@ -250,7 +251,7 @@ const Leaderboard = props => {
             <tr>
               <th>Rank</th>
               <th>Constituency</th>
-              <th>Avg. Ads per User*</th>
+              <th>Avg. Ads per User *</th>
               <th>Trend ** </th>
               <th>2017 Winning Party</th>
               <th>Majority</th>
