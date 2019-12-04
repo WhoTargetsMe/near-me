@@ -1,12 +1,12 @@
 import React, { useState } from "react"
 import { graphql, useStaticQuery } from "gatsby"
-import { Button, ButtonGroup, Glyphicon, Modal, Table } from "react-bootstrap"
+import { Button, ButtonGroup, Glyphicon, Table } from "react-bootstrap"
 import styled from "styled-components"
 
 import InstallWTMAlert from "../components/InstallWTMAlert"
 import InstallWTMCTA from "../components/InstallWTMCTA"
 import Layout from "../components/layout"
-import LeaderboardModalBody from "../components/LeaderboardModalBody"
+import LeaderboardExtraData from "../components/LeaderboardExtraData"
 
 import constituencyData from "../data/constituency-data.json"
 import userCounts from "../data/users-by-constituency.json"
@@ -187,6 +187,7 @@ const parties = [
 
 const Leaderboard = props => {
   const [filter, setFilter] = useState("ALL")
+  const [openRow, setOpenRow] = useState(null)
   const [selectedConstituency, setSelectedConstituency] = useState(null)
 
   const majorityData = useStaticQuery(graphql`
@@ -221,6 +222,15 @@ const Leaderboard = props => {
     )
     .slice(0, 100)
 
+  const handleTableRowClick = constituency => {
+    if (selectedConstituency && selectedConstituency.id === constituency.id) {
+      setSelectedConstituency(null)
+      return
+    }
+
+    setSelectedConstituency(constituency)
+  }
+
   const renderNoData = () => (
     <NoDataContainer>
       <p>
@@ -243,10 +253,18 @@ const Leaderboard = props => {
     return <NoChangeIcon glyph="arrow-right" title="No change" />
   }
 
+  const renderExtraDataRow = constituency => {
+    return (
+      <td colSpan="100%">
+        <LeaderboardExtraData selectedConstituency={selectedConstituency} />
+      </td>
+    )
+  }
+
   const renderTable = () => (
     <>
       <TableContainer>
-        <StyledTable hover striped>
+        <StyledTable hover>
           <thead>
             <tr>
               <th>Rank</th>
@@ -259,37 +277,29 @@ const Leaderboard = props => {
           </thead>
           <tbody>
             {sortedData.map((d, index) => (
-              <tr key={d.id} onClick={() => setSelectedConstituency(d)}>
-                <td>
-                  <strong>{index + 1}</strong>
-                </td>
-                <td>{d.node.Constituency}</td>
-                <td>{+d[filter].avgPerUserPerCampaignPeriod.toFixed(1)}</td>
-                <td>{renderTrend(d)}</td>
-                <td style={{ color: partyColors[d.node["Party"]] }}>
-                  {d.node.Party}
-                </td>
-                <td>{d.node.Majority}</td>
-              </tr>
+              <React.Fragment key={d.id}>
+                <tr onClick={() => handleTableRowClick(d)}>
+                  <td>
+                    <strong>{index + 1}</strong>
+                  </td>
+                  <td>{d.node.Constituency}</td>
+                  <td>{+d[filter].avgPerUserPerCampaignPeriod.toFixed(1)}</td>
+                  <td>{renderTrend(d)}</td>
+                  <td style={{ color: partyColors[d.node["Party"]] }}>
+                    {d.node.Party}
+                  </td>
+                  <td>{d.node.Majority}</td>
+                </tr>
+                <tr>
+                  {selectedConstituency != null &&
+                  selectedConstituency.id === d.id
+                    ? renderExtraDataRow(d)
+                    : null}
+                </tr>
+              </React.Fragment>
             ))}
           </tbody>
         </StyledTable>
-        <Modal
-          show={selectedConstituency !== null}
-          onHide={() => setSelectedConstituency(null)}
-        >
-          <Modal.Header closeButton>
-            <Modal.Title>
-              {selectedConstituency && selectedConstituency.node.Constituency}
-            </Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            <LeaderboardModalBody selectedConstituency={selectedConstituency} />
-          </Modal.Body>
-          <Modal.Footer>
-            <Button onClick={() => setSelectedConstituency(null)}>Close</Button>
-          </Modal.Footer>
-        </Modal>
       </TableContainer>
       <DataDisclaimer>
         <strong>

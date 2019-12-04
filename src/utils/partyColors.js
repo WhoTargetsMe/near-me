@@ -1,6 +1,7 @@
 const partyColors = {
   Alliance: "#f6cb2f",
   BNP: "#2e3b74",
+  BRE: "#12b6cf",
   C: "#0087dc",
   CON: "#0087dc",
   Conservative: "#0087dc",
@@ -17,6 +18,7 @@ const partyColors = {
   LD: "#faa61a",
   NF: "#191970",
   Oth: "#ccc",
+  PC: "#008142",
   Remain: "#2c4d92",
   "Scottish National Party": "#333",
   SDLP: "#3a9e84",
