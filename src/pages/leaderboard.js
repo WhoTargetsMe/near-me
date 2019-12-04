@@ -60,6 +60,18 @@ const data = constituencyData.constituencies
         .reduce((prev, key) => {
           return prev + constituency[key].avgPerUserPerCampaignPeriod
         }, 0),
+
+      lastweek: Object.keys(constituency)
+        .filter(key => key !== "id")
+        .reduce((prev, key) => {
+          return prev + constituency[key].lastweek
+        }, 0),
+
+      weekbeforelast: Object.keys(constituency)
+        .filter(key => key !== "id")
+        .reduce((prev, key) => {
+          return prev + constituency[key].weekbeforelast
+        }, 0),
     },
   }))
   .map(constituency => {
@@ -77,6 +89,13 @@ const data = constituencyData.constituencies
             [key]: {
               avgPerUserPerCampaignPeriod:
                 constituency[key].avgPerUserPerCampaignPeriod /
+                numberOfUsersInConstituency,
+
+              lastweek:
+                (constituency[key].lastweek || 0) / numberOfUsersInConstituency,
+
+              weekbeforelast:
+                (constituency[key].weekbeforelast || 0) /
                 numberOfUsersInConstituency,
             },
           }
@@ -105,12 +124,26 @@ const StyledButton = styled(Button)`
   }
 `
 
-const ChangeIcon = styled(Glyphicon)`
+const NoChangeIcon = styled(Glyphicon)`
   color: #aaa;
+`
+
+const TrendingUpIcon = styled(Glyphicon)`
+  transform: rotate(-45deg);
+  color: green;
+`
+
+const TrendingDownIcon = styled(Glyphicon)`
+  transform: rotate(45deg);
+  color: red;
 `
 
 const DataDisclaimer = styled.div`
   margin-bottom: 3rem;
+
+  strong {
+    display: block;
+  }
 `
 
 const parties = [
@@ -201,16 +234,28 @@ const Leaderboard = props => {
     </NoDataContainer>
   )
 
+  const renderTrend = constituency => {
+    if (constituency[filter].weekbeforelast > constituency[filter].lastweek) {
+      return <TrendingUpIcon glyph="arrow-right" title="Trending up" />
+    } else if (
+      constituency[filter].weekbeforelast < constituency[filter].lastweek
+    ) {
+      return <TrendingDownIcon glyph="arrow-right" title="Trending down" />
+    }
+
+    return <NoChangeIcon glyph="arrow-right" title="No change" />
+  }
+
   const renderTable = () => (
     <>
       <TableContainer>
         <StyledTable hover striped>
           <thead>
             <tr>
-              <th>Trend</th>
               <th>Rank</th>
               <th>Constituency</th>
               <th>Avg. Ads per User*</th>
+              <th>Trend ** </th>
               <th>2017 Winning Party</th>
               <th>
                 <p className="no-bottom-margin">Current Majority</p>
@@ -222,13 +267,11 @@ const Leaderboard = props => {
             {sortedData.map((d, index) => (
               <tr key={d.id} onClick={() => setSelectedConstituency(d)}>
                 <td>
-                  <ChangeIcon glyph="arrow-right" title="No change" />
-                </td>
-                <td>
                   <strong>{index + 1}</strong>
                 </td>
                 <td>{d.node.Constituency}</td>
                 <td>{+d[filter].avgPerUserPerCampaignPeriod.toFixed(1)}</td>
+                <td>{renderTrend(d)}</td>
                 <td style={{ color: partyColors[d.node["Party"]] }}>
                   {d.node.Party}
                 </td>
@@ -259,6 +302,7 @@ const Leaderboard = props => {
           *Average ads seen by users by constituency in the period since the GE
           campaign started
         </strong>
+        <strong>**Change in average versus seven days ago</strong>
       </DataDisclaimer>
     </>
   )
