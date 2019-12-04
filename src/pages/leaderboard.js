@@ -327,7 +327,7 @@ const Leaderboard = props => {
       <SubTitle>
         Average number of political ads per user seen{subtitleSuffix()}
       </SubTitle>
-      <h5>Last updated: 3rd December 2019</h5>
+      <h5>Last updated: 4th December 2019</h5>
       <InstallWTMAlert />
       <Buttons>
         <ButtonGroup>
