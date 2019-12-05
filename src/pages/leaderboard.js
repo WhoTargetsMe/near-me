@@ -187,7 +187,6 @@ const parties = [
 
 const Leaderboard = props => {
   const [filter, setFilter] = useState("ALL")
-  const [openRow, setOpenRow] = useState(null)
   const [selectedConstituency, setSelectedConstituency] = useState(null)
 
   const majorityData = useStaticQuery(graphql`
