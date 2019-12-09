@@ -16,7 +16,6 @@ import { utcFormat } from "d3-time-format"
 import { transition } from "d3-transition"
 import select_transition from "../../node_modules/d3-transition/src/selection/transition"
 
-import InstallWTMAlert from "../components/InstallWTMAlert"
 import Layout from "../components/layout"
 
 import partyColors from "../utils/partyColors"
@@ -351,7 +350,6 @@ const PartySpendingRace = props => {
           </Button>
         </ButtonContainer>
       </Container>
-      <InstallWTMAlert />
     </Layout>
   )
 }
