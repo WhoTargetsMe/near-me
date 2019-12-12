@@ -276,7 +276,7 @@ const Leaderboard = props => {
           </thead>
           <tbody>
             {sortedData.map((d, index) => (
-              <React.Fragment key={d.id}>
+              <React.Fragment key={d.id + filter}>
                 <tr onClick={() => handleTableRowClick(d)}>
                   <td>
                     <strong>{index + 1}</strong>
