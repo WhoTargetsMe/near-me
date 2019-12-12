@@ -23,9 +23,9 @@
     },
     {
       "LAB": {
-        "avgPerUserPerCampaignPeriod": 2.0,
-        "lastweek": 2,
-        "totalImpressions": 2
+        "avgPerUserPerCampaignPeriod": 1.5,
+        "lastweek": 3,
+        "totalImpressions": 3
       },
       "id": "E14000871"
     },
@@ -254,9 +254,9 @@
         "weekbeforelast": 1
       },
       "SNP": {
-        "avgPerUserPerCampaignPeriod": 1.3,
-        "lastweek": 4,
-        "totalImpressions": 4
+        "avgPerUserPerCampaignPeriod": 1.7,
+        "lastweek": 5,
+        "totalImpressions": 5
       },
       "id": "S14000024"
     },
@@ -316,9 +316,9 @@
     },
     {
       "BRE": {
-        "avgPerUserPerCampaignPeriod": 7.0,
-        "lastweek": 7,
-        "totalImpressions": 7
+        "avgPerUserPerCampaignPeriod": 8.0,
+        "lastweek": 8,
+        "totalImpressions": 8
       },
       "LAB": {
         "avgPerUserPerCampaignPeriod": 5.0,
@@ -383,9 +383,9 @@
         "totalImpressions": 1
       },
       "LD": {
-        "avgPerUserPerCampaignPeriod": 1.0,
-        "lastweek": 1,
-        "totalImpressions": 1
+        "avgPerUserPerCampaignPeriod": 2.0,
+        "lastweek": 2,
+        "totalImpressions": 2
       },
       "id": "E14000730"
     },
@@ -395,15 +395,15 @@
         "totalImpressions": 4
       },
       "Gre": {
-        "avgPerUserPerCampaignPeriod": 3.2,
-        "lastweek": 14,
-        "totalImpressions": 16,
+        "avgPerUserPerCampaignPeriod": 3.4,
+        "lastweek": 15,
+        "totalImpressions": 17,
         "weekbeforelast": 2
       },
       "LAB": {
-        "avgPerUserPerCampaignPeriod": 10.7,
-        "lastweek": 17,
-        "totalImpressions": 32,
+        "avgPerUserPerCampaignPeriod": 11.3,
+        "lastweek": 19,
+        "totalImpressions": 34,
         "weekbeforelast": 2
       },
       "LD": {
@@ -593,14 +593,14 @@
     },
     {
       "CON": {
-        "avgPerUserPerCampaignPeriod": 3.0,
-        "lastweek": 6,
-        "totalImpressions": 6
+        "avgPerUserPerCampaignPeriod": 4.0,
+        "lastweek": 8,
+        "totalImpressions": 8
       },
       "LAB": {
-        "avgPerUserPerCampaignPeriod": 16.3,
-        "lastweek": 38,
-        "totalImpressions": 49,
+        "avgPerUserPerCampaignPeriod": 16.7,
+        "lastweek": 39,
+        "totalImpressions": 50,
         "weekbeforelast": 6
       },
       "LD": {
@@ -895,9 +895,9 @@
         "totalImpressions": 1
       },
       "LAB": {
-        "avgPerUserPerCampaignPeriod": 6.0,
-        "lastweek": 6,
-        "totalImpressions": 6
+        "avgPerUserPerCampaignPeriod": 7.0,
+        "lastweek": 7,
+        "totalImpressions": 7
       },
       "id": "E14000915"
     },
@@ -969,7 +969,7 @@
         "lastweek": 1,
         "totalImpressions": 1
       },
-      "id": "E14001035"
+      "id": "E14000913"
     },
     {
       "LAB": {
@@ -977,7 +977,7 @@
         "lastweek": 1,
         "totalImpressions": 1
       },
-      "id": "E14000913"
+      "id": "E14001035"
     },
     {
       "CON": {
@@ -1080,9 +1080,9 @@
     },
     {
       "CON": {
-        "avgPerUserPerCampaignPeriod": 6.5,
-        "lastweek": 5,
-        "totalImpressions": 13
+        "avgPerUserPerCampaignPeriod": 7.0,
+        "lastweek": 6,
+        "totalImpressions": 14
       },
       "Gre": {
         "avgPerUserPerCampaignPeriod": 2.0,
@@ -1225,9 +1225,9 @@
         "weekbeforelast": 2
       },
       "SNP": {
-        "avgPerUserPerCampaignPeriod": 4.3,
-        "lastweek": 13,
-        "totalImpressions": 13
+        "avgPerUserPerCampaignPeriod": 4.7,
+        "lastweek": 14,
+        "totalImpressions": 14
       },
       "id": "S14000037"
     },
@@ -1634,9 +1634,9 @@
     },
     {
       "CON": {
-        "avgPerUserPerCampaignPeriod": 1.0,
-        "lastweek": 1,
-        "totalImpressions": 1
+        "avgPerUserPerCampaignPeriod": 2.0,
+        "lastweek": 2,
+        "totalImpressions": 2
       },
       "LAB": {
         "avgPerUserPerCampaignPeriod": 2.0,
@@ -1691,7 +1691,12 @@
       "id": "E14000639"
     },
     {
-      "id": "E14000693"
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2.0,
+        "lastweek": 2,
+        "totalImpressions": 2
+      },
+      "id": "E14000972"
     },
     {
       "CON": {
@@ -1713,12 +1718,7 @@
       "id": "E14001013"
     },
     {
-      "LAB": {
-        "avgPerUserPerCampaignPeriod": 2.0,
-        "lastweek": 2,
-        "totalImpressions": 2
-      },
-      "id": "E14000972"
+      "id": "E14000693"
     },
     {
       "LD": {
@@ -1959,6 +1959,9 @@
       "id": "E14000906"
     },
     {
+      "id": "E14000782"
+    },
+    {
       "LAB": {
         "avgPerUserPerCampaignPeriod": 3.0,
         "lastweek": 4,
@@ -2118,9 +2121,9 @@
         "totalImpressions": 18
       },
       "LAB": {
-        "avgPerUserPerCampaignPeriod": 4.0,
-        "lastweek": 3,
-        "totalImpressions": 8
+        "avgPerUserPerCampaignPeriod": 3.3,
+        "lastweek": 5,
+        "totalImpressions": 10
       },
       "LD": {
         "avgPerUserPerCampaignPeriod": 2.0,
@@ -2443,9 +2446,9 @@
     },
     {
       "CON": {
-        "avgPerUserPerCampaignPeriod": 1.0,
-        "lastweek": 1,
-        "totalImpressions": 1
+        "avgPerUserPerCampaignPeriod": 2.0,
+        "lastweek": 2,
+        "totalImpressions": 2
       },
       "LAB": {
         "avgPerUserPerCampaignPeriod": 1.5,
@@ -2551,9 +2554,9 @@
         "totalImpressions": 22
       },
       "LAB": {
-        "avgPerUserPerCampaignPeriod": 13.5,
-        "lastweek": 14,
-        "totalImpressions": 27,
+        "avgPerUserPerCampaignPeriod": 14.0,
+        "lastweek": 15,
+        "totalImpressions": 28,
         "weekbeforelast": 1
       },
       "LD": {
@@ -2684,10 +2687,15 @@
         "lastweek": 1,
         "totalImpressions": 1
       },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1.0,
+        "lastweek": 1,
+        "totalImpressions": 1
+      },
       "LD": {
-        "avgPerUserPerCampaignPeriod": 4.0,
-        "lastweek": 4,
-        "totalImpressions": 4
+        "avgPerUserPerCampaignPeriod": 5.0,
+        "lastweek": 5,
+        "totalImpressions": 5
       },
       "id": "E14000597"
     },
@@ -3056,9 +3064,9 @@
         "totalImpressions": 2
       },
       "LAB": {
-        "avgPerUserPerCampaignPeriod": 2.3,
-        "lastweek": 7,
-        "totalImpressions": 7
+        "avgPerUserPerCampaignPeriod": 3.0,
+        "lastweek": 9,
+        "totalImpressions": 9
       },
       "LD": {
         "avgPerUserPerCampaignPeriod": 1.0,
@@ -3237,6 +3245,9 @@
     },
     {
       "id": "E14000605"
+    },
+    {
+      "id": "E14000611"
     },
     {
       "Ind": {
@@ -3507,6 +3518,11 @@
       "id": "E14000757"
     },
     {
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 2.0,
+        "lastweek": 2,
+        "totalImpressions": 2
+      },
       "LD": {
         "avgPerUserPerCampaignPeriod": 1.0,
         "lastweek": 1,
@@ -3586,9 +3602,9 @@
     },
     {
       "LAB": {
-        "avgPerUserPerCampaignPeriod": 5.8,
-        "lastweek": 23,
-        "totalImpressions": 23
+        "avgPerUserPerCampaignPeriod": 4.8,
+        "lastweek": 24,
+        "totalImpressions": 24
       },
       "SNP": {
         "avgPerUserPerCampaignPeriod": 4.0,
@@ -3784,9 +3800,9 @@
         "totalImpressions": 5
       },
       "LD": {
-        "avgPerUserPerCampaignPeriod": 3.0,
-        "lastweek": 1,
-        "totalImpressions": 3
+        "avgPerUserPerCampaignPeriod": 2.5,
+        "lastweek": 3,
+        "totalImpressions": 5
       },
       "id": "E14001046"
     },
@@ -3910,9 +3926,9 @@
         "totalImpressions": 2
       },
       "LD": {
-        "avgPerUserPerCampaignPeriod": 2.0,
-        "lastweek": 2,
-        "totalImpressions": 2
+        "avgPerUserPerCampaignPeriod": 3.0,
+        "lastweek": 3,
+        "totalImpressions": 3
       },
       "id": "E14001015"
     },
@@ -4328,9 +4344,9 @@
         "totalImpressions": 6
       },
       "SNP": {
-        "avgPerUserPerCampaignPeriod": 6.3,
-        "lastweek": 25,
-        "totalImpressions": 25
+        "avgPerUserPerCampaignPeriod": 6.5,
+        "lastweek": 26,
+        "totalImpressions": 26
       },
       "id": "S14000022"
     },
@@ -4376,15 +4392,20 @@
       "id": "E14000792"
     },
     {
+      "CON": {
+        "avgPerUserPerCampaignPeriod": 1.0,
+        "lastweek": 1,
+        "totalImpressions": 1
+      },
       "LAB": {
         "avgPerUserPerCampaignPeriod": 1.0,
         "totalImpressions": 1,
         "weekbeforelast": 1
       },
       "LD": {
-        "avgPerUserPerCampaignPeriod": 23.0,
-        "lastweek": 19,
-        "totalImpressions": 23,
+        "avgPerUserPerCampaignPeriod": 24.0,
+        "lastweek": 20,
+        "totalImpressions": 24,
         "weekbeforelast": 4
       },
       "id": "E14000719"
@@ -4470,9 +4491,9 @@
         "totalImpressions": 1
       },
       "LAB": {
-        "avgPerUserPerCampaignPeriod": 44.0,
+        "avgPerUserPerCampaignPeriod": 45.0,
         "lastweek": 31,
-        "totalImpressions": 44,
+        "totalImpressions": 45,
         "weekbeforelast": 2
       },
       "LD": {
@@ -4487,6 +4508,11 @@
         "avgPerUserPerCampaignPeriod": 1.0,
         "lastweek": 1,
         "totalImpressions": 2
+      },
+      "LAB": {
+        "avgPerUserPerCampaignPeriod": 1.0,
+        "lastweek": 1,
+        "totalImpressions": 1
       },
       "id": "E14000956"
     },
@@ -4533,9 +4559,9 @@
     },
     {
       "LAB": {
-        "avgPerUserPerCampaignPeriod": 2.0,
-        "lastweek": 2,
-        "totalImpressions": 2
+        "avgPerUserPerCampaignPeriod": 3.0,
+        "lastweek": 3,
+        "totalImpressions": 3
       },
       "LD": {
         "avgPerUserPerCampaignPeriod": 1.0,
@@ -4556,9 +4582,9 @@
         "totalImpressions": 1
       },
       "LAB": {
-        "avgPerUserPerCampaignPeriod": 6.0,
-        "lastweek": 14,
-        "totalImpressions": 18
+        "avgPerUserPerCampaignPeriod": 6.7,
+        "lastweek": 16,
+        "totalImpressions": 20
       },
       "LD": {
         "avgPerUserPerCampaignPeriod": 19.5,

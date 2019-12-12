@@ -37,7 +37,7 @@
   {
     "geoid": "E14000750",
     "name": "Holborn and St. Pancras",
-    "count": 65
+    "count": 66
   },
   {
     "geoid": "E14000764",
@@ -57,12 +57,12 @@
   {
     "geoid": "E14000598",
     "name": "Brighton, Pavilion",
-    "count": 59
+    "count": 60
   },
   {
     "geoid": "E14000789",
     "name": "Lewisham, Deptford",
-    "count": 57
+    "count": 58
   },
   {
     "geoid": "E14000720",
@@ -75,13 +75,13 @@
     "count": 56
   },
   {
-    "geoid": "E14000882",
-    "name": "Poplar and Limehouse",
+    "geoid": "E14000763",
+    "name": "Islington North",
     "count": 52
   },
   {
-    "geoid": "E14000763",
-    "name": "Islington North",
+    "geoid": "E14000882",
+    "name": "Poplar and Limehouse",
     "count": 52
   },
   {
@@ -90,13 +90,13 @@
     "count": 50
   },
   {
-    "geoid": "E14000727",
-    "name": "Hampstead and Kilburn",
+    "geoid": "E14000874",
+    "name": "Oxford West and Abingdon",
     "count": 48
   },
   {
-    "geoid": "E14000874",
-    "name": "Oxford West and Abingdon",
+    "geoid": "E14000727",
+    "name": "Hampstead and Kilburn",
     "count": 48
   },
   {
@@ -110,13 +110,13 @@
     "count": 42
   },
   {
-    "geoid": "E14000978",
-    "name": "Streatham",
+    "geoid": "E14001013",
+    "name": "Walthamstow",
     "count": 41
   },
   {
-    "geoid": "E14001013",
-    "name": "Walthamstow",
+    "geoid": "E14000978",
+    "name": "Streatham",
     "count": 41
   },
   {
@@ -135,13 +135,13 @@
     "count": 36
   },
   {
-    "geoid": "E14000807",
-    "name": "Manchester Central",
+    "geoid": "E14000790",
+    "name": "Leyton and Wanstead",
     "count": 35
   },
   {
-    "geoid": "E14000790",
-    "name": "Leyton and Wanstead",
+    "geoid": "E14000807",
+    "name": "Manchester Central",
     "count": 35
   },
   {
@@ -160,8 +160,8 @@
     "count": 32
   },
   {
-    "geoid": "E14000788",
-    "name": "Lewisham West and Penge",
+    "geoid": "E14000889",
+    "name": "Reading East",
     "count": 31
   },
   {
@@ -170,8 +170,8 @@
     "count": 31
   },
   {
-    "geoid": "E14000889",
-    "name": "Reading East",
+    "geoid": "E14000788",
+    "name": "Lewisham West and Penge",
     "count": 31
   },
   {
@@ -185,6 +185,11 @@
     "count": 28
   },
   {
+    "geoid": "E14000864",
+    "name": "Norwich South",
+    "count": 27
+  },
+  {
     "geoid": "E14000896",
     "name": "Richmond Park",
     "count": 27
@@ -195,9 +200,9 @@
     "count": 27
   },
   {
-    "geoid": "E14000864",
-    "name": "Norwich South",
-    "count": 27
+    "geoid": "E14000793",
+    "name": "Liverpool, Riverside",
+    "count": 26
   },
   {
     "geoid": "E14001040",
@@ -205,8 +210,8 @@
     "count": 26
   },
   {
-    "geoid": "E14000793",
-    "name": "Liverpool, Riverside",
+    "geoid": "E14000674",
+    "name": "Ealing Central and Acton",
     "count": 26
   },
   {
@@ -222,11 +227,6 @@
   {
     "geoid": "E14000601",
     "name": "Bristol South",
-    "count": 25
-  },
-  {
-    "geoid": "E14000674",
-    "name": "Ealing Central and Acton",
     "count": 25
   },
   {
@@ -1265,8 +1265,8 @@
     "count": 8
   },
   {
-    "geoid": "E14000743",
-    "name": "Hereford and South Herefordshire",
+    "geoid": "E14000766",
+    "name": "Keighley",
     "count": 7
   },
   {
@@ -1275,8 +1275,8 @@
     "count": 7
   },
   {
-    "geoid": "E14000766",
-    "name": "Keighley",
+    "geoid": "E14000930",
+    "name": "Slough",
     "count": 7
   },
   {
@@ -1285,53 +1285,13 @@
     "count": 7
   },
   {
-    "geoid": "E14000670",
-    "name": "Dover",
-    "count": 7
-  },
-  {
-    "geoid": "S14000052",
-    "name": "Paisley and Renfrewshire North",
-    "count": 7
-  },
-  {
-    "geoid": "E14000550",
-    "name": "Beaconsfield",
-    "count": 7
-  },
-  {
     "geoid": "E14000802",
     "name": "Macclesfield",
     "count": 7
   },
   {
-    "geoid": "E14000584",
-    "name": "Bournemouth East",
-    "count": 7
-  },
-  {
-    "geoid": "E14000710",
-    "name": "Gedling",
-    "count": 7
-  },
-  {
-    "geoid": "E14000612",
-    "name": "Bury South",
-    "count": 7
-  },
-  {
-    "geoid": "E14000785",
-    "name": "Leigh",
-    "count": 7
-  },
-  {
-    "geoid": "E14000605",
-    "name": "Bromsgrove",
-    "count": 7
-  },
-  {
-    "geoid": "E14001000",
-    "name": "Torridge and West Devon",
+    "geoid": "E14000741",
+    "name": "Hendon",
     "count": 7
   },
   {
@@ -1340,23 +1300,43 @@
     "count": 7
   },
   {
+    "geoid": "E14001033",
+    "name": "West Lancashire",
+    "count": 7
+  },
+  {
+    "geoid": "E14000584",
+    "name": "Bournemouth East",
+    "count": 7
+  },
+  {
+    "geoid": "E14000743",
+    "name": "Hereford and South Herefordshire",
+    "count": 7
+  },
+  {
+    "geoid": "E14000710",
+    "name": "Gedling",
+    "count": 7
+  },
+  {
+    "geoid": "S14000052",
+    "name": "Paisley and Renfrewshire North",
+    "count": 7
+  },
+  {
+    "geoid": "E14000785",
+    "name": "Leigh",
+    "count": 7
+  },
+  {
+    "geoid": "E14000612",
+    "name": "Bury South",
+    "count": 7
+  },
+  {
     "geoid": "S14000045",
     "name": "Midlothian",
-    "count": 7
-  },
-  {
-    "geoid": "E14000947",
-    "name": "South Swindon",
-    "count": 7
-  },
-  {
-    "geoid": "E14001021",
-    "name": "Watford",
-    "count": 7
-  },
-  {
-    "geoid": "E14000663",
-    "name": "Derby South",
     "count": 7
   },
   {
@@ -1365,13 +1345,38 @@
     "count": 7
   },
   {
+    "geoid": "E14000947",
+    "name": "South Swindon",
+    "count": 7
+  },
+  {
+    "geoid": "E14000931",
+    "name": "Solihull",
+    "count": 7
+  },
+  {
+    "geoid": "E14001000",
+    "name": "Torridge and West Devon",
+    "count": 7
+  },
+  {
+    "geoid": "E14000670",
+    "name": "Dover",
+    "count": 7
+  },
+  {
     "geoid": "E14000675",
     "name": "Ealing North",
     "count": 7
   },
   {
-    "geoid": "W07000043",
-    "name": "Alyn and Deeside",
+    "geoid": "E14000605",
+    "name": "Bromsgrove",
+    "count": 7
+  },
+  {
+    "geoid": "E14000663",
+    "name": "Derby South",
     "count": 7
   },
   {
@@ -1390,18 +1395,18 @@
     "count": 7
   },
   {
-    "geoid": "E14001016",
-    "name": "Warley",
-    "count": 7
-  },
-  {
     "geoid": "E14000957",
     "name": "Southend West",
     "count": 7
   },
   {
-    "geoid": "E14000812",
-    "name": "Meriden",
+    "geoid": "E14001016",
+    "name": "Warley",
+    "count": 7
+  },
+  {
+    "geoid": "S14000009",
+    "name": "Caithness, Sutherland and Easter Ross",
     "count": 7
   },
   {
@@ -1420,11 +1425,6 @@
     "count": 7
   },
   {
-    "geoid": "S14000009",
-    "name": "Caithness, Sutherland and Easter Ross",
-    "count": 7
-  },
-  {
     "geoid": "E14000888",
     "name": "Rayleigh and Wickford",
     "count": 7
@@ -1435,18 +1435,18 @@
     "count": 7
   },
   {
-    "geoid": "E14000931",
-    "name": "Solihull",
-    "count": 7
-  },
-  {
-    "geoid": "E14001033",
-    "name": "West Lancashire",
+    "geoid": "E14000812",
+    "name": "Meriden",
     "count": 7
   },
   {
     "geoid": "E14000939",
     "name": "South Holland and The Deepings",
+    "count": 7
+  },
+  {
+    "geoid": "E14001021",
+    "name": "Watford",
     "count": 7
   },
   {
@@ -1460,8 +1460,13 @@
     "count": 7
   },
   {
-    "geoid": "E14000930",
-    "name": "Slough",
+    "geoid": "E14000653",
+    "name": "Crewe and Nantwich",
+    "count": 7
+  },
+  {
+    "geoid": "W07000043",
+    "name": "Alyn and Deeside",
     "count": 7
   },
   {
@@ -1475,18 +1480,13 @@
     "count": 7
   },
   {
-    "geoid": "E14000653",
-    "name": "Crewe and Nantwich",
-    "count": 7
-  },
-  {
     "geoid": "E14000878",
     "name": "Peterborough",
     "count": 7
   },
   {
-    "geoid": "E14000741",
-    "name": "Hendon",
+    "geoid": "E14000550",
+    "name": "Beaconsfield",
     "count": 7
   },
   {
@@ -1495,8 +1495,8 @@
     "count": 7
   },
   {
-    "geoid": "E14000969",
-    "name": "Stockport",
+    "geoid": "E14000948",
+    "name": "South Thanet",
     "count": 6
   },
   {
@@ -1505,13 +1505,18 @@
     "count": 6
   },
   {
+    "geoid": "E14000783",
+    "name": "Leicester South",
+    "count": 6
+  },
+  {
     "geoid": "E14000614",
     "name": "Calder Valley",
     "count": 6
   },
   {
-    "geoid": "E14000948",
-    "name": "South Thanet",
+    "geoid": "E14000827",
+    "name": "New Forest East",
     "count": 6
   },
   {
@@ -1530,8 +1535,8 @@
     "count": 6
   },
   {
-    "geoid": "E14000827",
-    "name": "New Forest East",
+    "geoid": "E14000969",
+    "name": "Stockport",
     "count": 6
   },
   {
@@ -1542,11 +1547,6 @@
   {
     "geoid": "E14000730",
     "name": "Harrogate and Knaresborough",
-    "count": 6
-  },
-  {
-    "geoid": "E14000783",
-    "name": "Leicester South",
     "count": 6
   },
   {
@@ -1565,13 +1565,13 @@
     "count": 6
   },
   {
-    "geoid": "E14000537",
-    "name": "Ashton-under-Lyne",
+    "geoid": "E14000851",
+    "name": "North Swindon",
     "count": 6
   },
   {
-    "geoid": "E14000851",
-    "name": "North Swindon",
+    "geoid": "E14000537",
+    "name": "Ashton-under-Lyne",
     "count": 6
   },
   {
@@ -1625,18 +1625,23 @@
     "count": 6
   },
   {
+    "geoid": "E14001045",
+    "name": "Witham",
+    "count": 6
+  },
+  {
     "geoid": "E14000586",
     "name": "Bracknell",
     "count": 6
   },
   {
-    "geoid": "E14000594",
-    "name": "Brentwood and Ongar",
+    "geoid": "E14000924",
+    "name": "Sherwood",
     "count": 6
   },
   {
-    "geoid": "E14000924",
-    "name": "Sherwood",
+    "geoid": "E14000594",
+    "name": "Brentwood and Ongar",
     "count": 6
   },
   {
@@ -1650,13 +1655,8 @@
     "count": 6
   },
   {
-    "geoid": "E14000869",
-    "name": "Old Bexley and Sidcup",
-    "count": 5
-  },
-  {
-    "geoid": "E14000799",
-    "name": "Ludlow",
+    "geoid": "S14000053",
+    "name": "Paisley and Renfrewshire South",
     "count": 5
   },
   {
@@ -1665,38 +1665,8 @@
     "count": 5
   },
   {
-    "geoid": "S14000053",
-    "name": "Paisley and Renfrewshire South",
-    "count": 5
-  },
-  {
-    "geoid": "E14000551",
-    "name": "Beckenham",
-    "count": 5
-  },
-  {
-    "geoid": "E14000556",
-    "name": "Beverley and Holderness",
-    "count": 5
-  },
-  {
     "geoid": "S14000054",
     "name": "Perth and North Perthshire",
-    "count": 5
-  },
-  {
-    "geoid": "E14001011",
-    "name": "Walsall North",
-    "count": 5
-  },
-  {
-    "geoid": "E14000736",
-    "name": "Havant",
-    "count": 5
-  },
-  {
-    "geoid": "E14000725",
-    "name": "Halton",
     "count": 5
   },
   {
@@ -1705,13 +1675,8 @@
     "count": 5
   },
   {
-    "geoid": "E14000880",
-    "name": "Plymouth, Sutton and Devonport",
-    "count": 5
-  },
-  {
-    "geoid": "E14000559",
-    "name": "Birkenhead",
+    "geoid": "E14000551",
+    "name": "Beckenham",
     "count": 5
   },
   {
@@ -1720,8 +1685,33 @@
     "count": 5
   },
   {
-    "geoid": "W07000052",
-    "name": "Rhondda",
+    "geoid": "E14001017",
+    "name": "Warrington North",
+    "count": 5
+  },
+  {
+    "geoid": "E14000556",
+    "name": "Beverley and Holderness",
+    "count": 5
+  },
+  {
+    "geoid": "E14000725",
+    "name": "Halton",
+    "count": 5
+  },
+  {
+    "geoid": "E14001034",
+    "name": "West Suffolk",
+    "count": 5
+  },
+  {
+    "geoid": "E14000880",
+    "name": "Plymouth, Sutton and Devonport",
+    "count": 5
+  },
+  {
+    "geoid": "E14000799",
+    "name": "Ludlow",
     "count": 5
   },
   {
@@ -1730,13 +1720,8 @@
     "count": 5
   },
   {
-    "geoid": "E14000885",
-    "name": "Preston",
-    "count": 5
-  },
-  {
-    "geoid": "S14000015",
-    "name": "Dundee East",
+    "geoid": "E14001011",
+    "name": "Walsall North",
     "count": 5
   },
   {
@@ -1745,8 +1730,28 @@
     "count": 5
   },
   {
+    "geoid": "E14000885",
+    "name": "Preston",
+    "count": 5
+  },
+  {
+    "geoid": "E14000559",
+    "name": "Birkenhead",
+    "count": 5
+  },
+  {
+    "geoid": "E14000632",
+    "name": "Chesterfield",
+    "count": 5
+  },
+  {
     "geoid": "E14000963",
     "name": "St. Helens South and Whiston",
+    "count": 5
+  },
+  {
+    "geoid": "S14000015",
+    "name": "Dundee East",
     "count": 5
   },
   {
@@ -1760,13 +1765,8 @@
     "count": 5
   },
   {
-    "geoid": "E14000632",
-    "name": "Chesterfield",
-    "count": 5
-  },
-  {
-    "geoid": "S14000008",
-    "name": "Berwickshire, Roxburgh and Selkirk",
+    "geoid": "E14000981",
+    "name": "Suffolk Coastal",
     "count": 5
   },
   {
@@ -1775,18 +1775,8 @@
     "count": 5
   },
   {
-    "geoid": "E14000565",
-    "name": "Birmingham, Northfield",
-    "count": 5
-  },
-  {
-    "geoid": "E14000981",
-    "name": "Suffolk Coastal",
-    "count": 5
-  },
-  {
-    "geoid": "E14000923",
-    "name": "Sheffield, Heeley",
+    "geoid": "S14000008",
+    "name": "Berwickshire, Roxburgh and Selkirk",
     "count": 5
   },
   {
@@ -1795,38 +1785,8 @@
     "count": 5
   },
   {
-    "geoid": "E14000603",
-    "name": "Broadland",
-    "count": 5
-  },
-  {
-    "geoid": "N06000015",
-    "name": "South Down",
-    "count": 5
-  },
-  {
-    "geoid": "E14000646",
-    "name": "Congleton",
-    "count": 5
-  },
-  {
-    "geoid": "E14000901",
-    "name": "Romsey and Southampton North",
-    "count": 5
-  },
-  {
-    "geoid": "E14000929",
-    "name": "Sleaford and North Hykeham",
-    "count": 5
-  },
-  {
-    "geoid": "N06000009",
-    "name": "Lagan Valley",
-    "count": 5
-  },
-  {
-    "geoid": "N06000007",
-    "name": "Fermanagh and South Tyrone",
+    "geoid": "E14000736",
+    "name": "Havant",
     "count": 5
   },
   {
@@ -1835,8 +1795,48 @@
     "count": 5
   },
   {
+    "geoid": "E14000923",
+    "name": "Sheffield, Heeley",
+    "count": 5
+  },
+  {
+    "geoid": "E14000565",
+    "name": "Birmingham, Northfield",
+    "count": 5
+  },
+  {
+    "geoid": "E14000929",
+    "name": "Sleaford and North Hykeham",
+    "count": 5
+  },
+  {
+    "geoid": "E14000901",
+    "name": "Romsey and Southampton North",
+    "count": 5
+  },
+  {
     "geoid": "W07000055",
     "name": "Newport East",
+    "count": 5
+  },
+  {
+    "geoid": "N06000015",
+    "name": "South Down",
+    "count": 5
+  },
+  {
+    "geoid": "N06000009",
+    "name": "Lagan Valley",
+    "count": 5
+  },
+  {
+    "geoid": "E14000646",
+    "name": "Congleton",
+    "count": 5
+  },
+  {
+    "geoid": "E14000738",
+    "name": "Hazel Grove",
     "count": 5
   },
   {
@@ -1845,13 +1845,13 @@
     "count": 5
   },
   {
-    "geoid": "E14001058",
-    "name": "Wyre Forest",
+    "geoid": "N06000007",
+    "name": "Fermanagh and South Tyrone",
     "count": 5
   },
   {
-    "geoid": "E14001045",
-    "name": "Witham",
+    "geoid": "E14001058",
+    "name": "Wyre Forest",
     "count": 5
   },
   {
@@ -1860,18 +1860,13 @@
     "count": 5
   },
   {
-    "geoid": "E14000610",
-    "name": "Burton",
+    "geoid": "E14000603",
+    "name": "Broadland",
     "count": 5
   },
   {
     "geoid": "E14000536",
     "name": "Ashford",
-    "count": 5
-  },
-  {
-    "geoid": "E14000738",
-    "name": "Hazel Grove",
     "count": 5
   },
   {
@@ -1895,8 +1890,8 @@
     "count": 5
   },
   {
-    "geoid": "E14001017",
-    "name": "Warrington North",
+    "geoid": "E14000852",
+    "name": "North Thanet",
     "count": 5
   },
   {
@@ -1905,8 +1900,13 @@
     "count": 5
   },
   {
-    "geoid": "W07000059",
-    "name": "Clwyd West",
+    "geoid": "S14000050",
+    "name": "Ochil and South Perthshire",
+    "count": 5
+  },
+  {
+    "geoid": "W07000052",
+    "name": "Rhondda",
     "count": 5
   },
   {
@@ -1925,13 +1925,18 @@
     "count": 5
   },
   {
-    "geoid": "E14000852",
-    "name": "North Thanet",
+    "geoid": "E14000745",
+    "name": "Hertsmere",
     "count": 5
   },
   {
-    "geoid": "S14000050",
-    "name": "Ochil and South Perthshire",
+    "geoid": "W07000059",
+    "name": "Clwyd West",
+    "count": 5
+  },
+  {
+    "geoid": "E14000610",
+    "name": "Burton",
     "count": 5
   },
   {
@@ -1940,18 +1945,13 @@
     "count": 5
   },
   {
-    "geoid": "E14001034",
-    "name": "West Suffolk",
-    "count": 5
-  },
-  {
-    "geoid": "E14000745",
-    "name": "Hertsmere",
-    "count": 5
-  },
-  {
     "geoid": "E14000717",
     "name": "Great Yarmouth",
+    "count": 5
+  },
+  {
+    "geoid": "E14000869",
+    "name": "Old Bexley and Sidcup",
     "count": 5
   },
   {
@@ -1977,6 +1977,11 @@
   {
     "geoid": "E14000806",
     "name": "Maldon",
+    "count": 4
+  },
+  {
+    "geoid": "E14000734",
+    "name": "Harwich and North Essex",
     "count": 4
   },
   {
@@ -2127,6 +2132,11 @@
   {
     "geoid": "E14000952",
     "name": "South West Norfolk",
+    "count": 4
+  },
+  {
+    "geoid": "E14000967",
+    "name": "Stalybridge and Hyde",
     "count": 4
   },
   {
@@ -2285,11 +2295,6 @@
     "count": 4
   },
   {
-    "geoid": "E14000804",
-    "name": "Maidstone and The Weald",
-    "count": 3
-  },
-  {
     "geoid": "E14000999",
     "name": "Torbay",
     "count": 3
@@ -2330,18 +2335,13 @@
     "count": 3
   },
   {
-    "geoid": "E14000927",
-    "name": "Sittingbourne and Sheppey",
-    "count": 3
-  },
-  {
     "geoid": "E14000751",
     "name": "Hornchurch and Upminster",
     "count": 3
   },
   {
-    "geoid": "E14000925",
-    "name": "Shipley",
+    "geoid": "E14000927",
+    "name": "Sittingbourne and Sheppey",
     "count": 3
   },
   {
@@ -2350,8 +2350,8 @@
     "count": 3
   },
   {
-    "geoid": "E14000920",
-    "name": "Sheffield South East",
+    "geoid": "E14000925",
+    "name": "Shipley",
     "count": 3
   },
   {
@@ -2360,18 +2360,28 @@
     "count": 3
   },
   {
+    "geoid": "E14000920",
+    "name": "Sheffield South East",
+    "count": 3
+  },
+  {
     "geoid": "E14000667",
     "name": "Don Valley",
     "count": 3
   },
   {
-    "geoid": "E14000668",
-    "name": "Doncaster Central",
+    "geoid": "E14001035",
+    "name": "West Worcestershire",
     "count": 3
   },
   {
-    "geoid": "E14001035",
-    "name": "West Worcestershire",
+    "geoid": "E14000804",
+    "name": "Maidstone and The Weald",
+    "count": 3
+  },
+  {
+    "geoid": "E14000668",
+    "name": "Doncaster Central",
     "count": 3
   },
   {
@@ -2405,11 +2415,6 @@
     "count": 3
   },
   {
-    "geoid": "E14000678",
-    "name": "East Devon",
-    "count": 3
-  },
-  {
     "geoid": "E14000568",
     "name": "Birmingham, Yardley",
     "count": 3
@@ -2422,6 +2427,11 @@
   {
     "geoid": "E14000566",
     "name": "Birmingham, Perry Barr",
+    "count": 3
+  },
+  {
+    "geoid": "E14000678",
+    "name": "East Devon",
     "count": 3
   },
   {
@@ -2440,11 +2450,6 @@
     "count": 3
   },
   {
-    "geoid": "E14000894",
-    "name": "Ribble Valley",
-    "count": 3
-  },
-  {
     "geoid": "E14000562",
     "name": "Birmingham, Hall Green",
     "count": 3
@@ -2457,6 +2462,11 @@
   {
     "geoid": "E14000767",
     "name": "Kenilworth and Southam",
+    "count": 3
+  },
+  {
+    "geoid": "E14000894",
+    "name": "Ribble Valley",
     "count": 3
   },
   {
@@ -2475,13 +2485,13 @@
     "count": 3
   },
   {
-    "geoid": "E14000879",
-    "name": "Plymouth, Moor View",
+    "geoid": "S14000019",
+    "name": "East Kilbride, Strathaven and Lesmahagow",
     "count": 3
   },
   {
-    "geoid": "S14000019",
-    "name": "East Kilbride, Strathaven and Lesmahagow",
+    "geoid": "E14000879",
+    "name": "Plymouth, Moor View",
     "count": 3
   },
   {
@@ -2490,23 +2500,23 @@
     "count": 3
   },
   {
-    "geoid": "E14000868",
-    "name": "Nuneaton",
-    "count": 3
-  },
-  {
     "geoid": "E14000546",
     "name": "Bassetlaw",
     "count": 3
   },
   {
-    "geoid": "E14000712",
-    "name": "Gloucester",
+    "geoid": "E14000868",
+    "name": "Nuneaton",
     "count": 3
   },
   {
     "geoid": "E14000543",
     "name": "Barrow and Furness",
+    "count": 3
+  },
+  {
+    "geoid": "E14000712",
+    "name": "Gloucester",
     "count": 3
   },
   {
@@ -2560,28 +2570,18 @@
     "count": 3
   },
   {
-    "geoid": "E14000966",
-    "name": "Staffordshire Moorlands",
-    "count": 3
-  },
-  {
-    "geoid": "E14000967",
-    "name": "Stalybridge and Hyde",
-    "count": 3
-  },
-  {
     "geoid": "W07000049",
     "name": "Aberavon",
     "count": 3
   },
   {
-    "geoid": "E14000970",
-    "name": "Stockton North",
+    "geoid": "E14000966",
+    "name": "Staffordshire Moorlands",
     "count": 3
   },
   {
-    "geoid": "E14000964",
-    "name": "St. Ives",
+    "geoid": "E14000970",
+    "name": "Stockton North",
     "count": 3
   },
   {
@@ -2592,6 +2592,11 @@
   {
     "geoid": "E14000976",
     "name": "Stourbridge",
+    "count": 3
+  },
+  {
+    "geoid": "E14000964",
+    "name": "St. Ives",
     "count": 3
   },
   {
@@ -2615,8 +2620,8 @@
     "count": 3
   },
   {
-    "geoid": "E14000734",
-    "name": "Harwich and North Essex",
+    "geoid": "E14000737",
+    "name": "Hayes and Harlington",
     "count": 3
   },
   {
@@ -2625,93 +2630,13 @@
     "count": 3
   },
   {
-    "geoid": "W07000046",
-    "name": "Gower",
-    "count": 2
-  },
-  {
-    "geoid": "E14000548",
-    "name": "Batley and Spen",
-    "count": 2
-  },
-  {
-    "geoid": "E14000622",
-    "name": "Castle Point",
-    "count": 2
-  },
-  {
-    "geoid": "E14000946",
-    "name": "South Suffolk",
-    "count": 2
-  },
-  {
-    "geoid": "W07000071",
-    "name": "Merthyr Tydfil and Rhymney",
-    "count": 2
-  },
-  {
-    "geoid": "E14000945",
-    "name": "South Staffordshire",
-    "count": 2
-  },
-  {
-    "geoid": "E14000944",
-    "name": "South Shields",
-    "count": 2
-  },
-  {
-    "geoid": "E14000544",
-    "name": "Basildon and Billericay",
-    "count": 2
-  },
-  {
-    "geoid": "E14000816",
-    "name": "Mid Norfolk",
-    "count": 2
-  },
-  {
-    "geoid": "E14000943",
-    "name": "South Ribble",
-    "count": 2
-  },
-  {
-    "geoid": "E14000609",
-    "name": "Burnley",
-    "count": 2
-  },
-  {
-    "geoid": "E14000658",
-    "name": "Darlington",
-    "count": 2
-  },
-  {
-    "geoid": "E14000820",
-    "name": "Middlesbrough South and East Cleveland",
-    "count": 2
-  },
-  {
-    "geoid": "E14000974",
-    "name": "Stoke-on-Trent South",
-    "count": 2
-  },
-  {
-    "geoid": "E14000782",
-    "name": "Leicester East",
-    "count": 2
-  },
-  {
-    "geoid": "E14000661",
-    "name": "Denton and Reddish",
+    "geoid": "E14001022",
+    "name": "Waveney",
     "count": 2
   },
   {
     "geoid": "E14000798",
     "name": "Louth and Horncastle",
-    "count": 2
-  },
-  {
-    "geoid": "E14001022",
-    "name": "Waveney",
     "count": 2
   },
   {
@@ -2725,18 +2650,33 @@
     "count": 2
   },
   {
-    "geoid": "E14000861",
-    "name": "Northampton North",
+    "geoid": "W07000046",
+    "name": "Gower",
     "count": 2
   },
   {
-    "geoid": "E14000713",
-    "name": "Gosport",
+    "geoid": "E14000820",
+    "name": "Middlesbrough South and East Cleveland",
+    "count": 2
+  },
+  {
+    "geoid": "E14000965",
+    "name": "Stafford",
     "count": 2
   },
   {
     "geoid": "E14001029",
     "name": "West Bromwich East",
+    "count": 2
+  },
+  {
+    "geoid": "E14000877",
+    "name": "Penrith and The Border",
+    "count": 2
+  },
+  {
+    "geoid": "E14000861",
+    "name": "Northampton North",
     "count": 2
   },
   {
@@ -2760,13 +2700,13 @@
     "count": 2
   },
   {
-    "geoid": "E14000975",
-    "name": "Stone",
+    "geoid": "E14000589",
+    "name": "Bradford West",
     "count": 2
   },
   {
-    "geoid": "E14000589",
-    "name": "Bradford West",
+    "geoid": "E14000554",
+    "name": "Berwick-upon-Tweed",
     "count": 2
   },
   {
@@ -2775,8 +2715,13 @@
     "count": 2
   },
   {
-    "geoid": "E14000626",
-    "name": "Chatham and Aylesford",
+    "geoid": "E14000713",
+    "name": "Gosport",
+    "count": 2
+  },
+  {
+    "geoid": "W07000067",
+    "name": "Carmarthen East and Dinefwr",
     "count": 2
   },
   {
@@ -2787,6 +2732,26 @@
   {
     "geoid": "E14000961",
     "name": "St. Austell and Newquay",
+    "count": 2
+  },
+  {
+    "geoid": "N06000011",
+    "name": "Newry and Armagh",
+    "count": 2
+  },
+  {
+    "geoid": "E14000701",
+    "name": "Feltham and Heston",
+    "count": 2
+  },
+  {
+    "geoid": "E14000548",
+    "name": "Batley and Spen",
+    "count": 2
+  },
+  {
+    "geoid": "E14000626",
+    "name": "Chatham and Aylesford",
     "count": 2
   },
   {
@@ -2805,13 +2770,28 @@
     "count": 2
   },
   {
+    "geoid": "E14000949",
+    "name": "South West Bedfordshire",
+    "count": 2
+  },
+  {
     "geoid": "E14000849",
     "name": "North Shropshire",
     "count": 2
   },
   {
-    "geoid": "W07000067",
-    "name": "Carmarthen East and Dinefwr",
+    "geoid": "W07000071",
+    "name": "Merthyr Tydfil and Rhymney",
+    "count": 2
+  },
+  {
+    "geoid": "E14000974",
+    "name": "Stoke-on-Trent South",
+    "count": 2
+  },
+  {
+    "geoid": "E14000982",
+    "name": "Sunderland Central",
     "count": 2
   },
   {
@@ -2825,8 +2805,18 @@
     "count": 2
   },
   {
+    "geoid": "E14000946",
+    "name": "South Suffolk",
+    "count": 2
+  },
+  {
     "geoid": "E14000572",
     "name": "Blackpool North and Cleveleys",
+    "count": 2
+  },
+  {
+    "geoid": "E14000945",
+    "name": "South Staffordshire",
     "count": 2
   },
   {
@@ -2840,6 +2830,11 @@
     "count": 2
   },
   {
+    "geoid": "E14000544",
+    "name": "Basildon and Billericay",
+    "count": 2
+  },
+  {
     "geoid": "E14000773",
     "name": "Kingston upon Hull West and Hessle",
     "count": 2
@@ -2850,33 +2845,23 @@
     "count": 2
   },
   {
-    "geoid": "E14000982",
-    "name": "Sunderland Central",
+    "geoid": "N06000004",
+    "name": "Belfast West",
     "count": 2
   },
   {
-    "geoid": "N06000011",
-    "name": "Newry and Armagh",
+    "geoid": "E14000816",
+    "name": "Mid Norfolk",
     "count": 2
   },
   {
-    "geoid": "N06000016",
-    "name": "Strangford",
+    "geoid": "E14000944",
+    "name": "South Shields",
     "count": 2
   },
   {
-    "geoid": "E14000729",
-    "name": "Harlow",
-    "count": 2
-  },
-  {
-    "geoid": "E14000825",
-    "name": "Morecambe and Lunesdale",
-    "count": 2
-  },
-  {
-    "geoid": "E14000891",
-    "name": "Redcar",
+    "geoid": "E14000609",
+    "name": "Burnley",
     "count": 2
   },
   {
@@ -2885,13 +2870,38 @@
     "count": 2
   },
   {
+    "geoid": "E14000891",
+    "name": "Redcar",
+    "count": 2
+  },
+  {
+    "geoid": "E14000943",
+    "name": "South Ribble",
+    "count": 2
+  },
+  {
+    "geoid": "E14000729",
+    "name": "Harlow",
+    "count": 2
+  },
+  {
     "geoid": "S14000013",
     "name": "Dumfries and Galloway",
     "count": 2
   },
   {
-    "geoid": "N06000004",
-    "name": "Belfast West",
+    "geoid": "N06000016",
+    "name": "Strangford",
+    "count": 2
+  },
+  {
+    "geoid": "E14000975",
+    "name": "Stone",
+    "count": 2
+  },
+  {
+    "geoid": "E14000658",
+    "name": "Darlington",
     "count": 2
   },
   {
@@ -2900,43 +2910,28 @@
     "count": 2
   },
   {
-    "geoid": "E14000949",
-    "name": "South West Bedfordshire",
+    "geoid": "E14000825",
+    "name": "Morecambe and Lunesdale",
     "count": 2
   },
   {
-    "geoid": "E14000877",
-    "name": "Penrith and The Border",
+    "geoid": "E14000782",
+    "name": "Leicester East",
     "count": 2
   },
   {
-    "geoid": "E14000965",
-    "name": "Stafford",
+    "geoid": "E14000622",
+    "name": "Castle Point",
     "count": 2
   },
   {
-    "geoid": "E14000554",
-    "name": "Berwick-upon-Tweed",
+    "geoid": "E14000661",
+    "name": "Denton and Reddish",
     "count": 2
   },
   {
-    "geoid": "E14000701",
-    "name": "Feltham and Heston",
-    "count": 2
-  },
-  {
-    "geoid": "E14000737",
-    "name": "Hayes and Harlington",
-    "count": 2
-  },
-  {
-    "geoid": "N06000005",
-    "name": "East Antrim",
-    "count": 1
-  },
-  {
-    "geoid": "E14000904",
-    "name": "Rotherham",
+    "geoid": "E14000784",
+    "name": "Leicester West",
     "count": 1
   },
   {
@@ -2945,18 +2940,13 @@
     "count": 1
   },
   {
-    "geoid": "E14000903",
-    "name": "Rother Valley",
+    "geoid": "E14000904",
+    "name": "Rotherham",
     "count": 1
   },
   {
-    "geoid": "E14001050",
-    "name": "Wolverhampton South East",
-    "count": 1
-  },
-  {
-    "geoid": "E14000672",
-    "name": "Dudley South",
+    "geoid": "E14000836",
+    "name": "Normanton, Pontefract and Castleford",
     "count": 1
   },
   {
@@ -2965,8 +2955,8 @@
     "count": 1
   },
   {
-    "geoid": "E14000833",
-    "name": "Newcastle upon Tyne North",
+    "geoid": "S14000059",
+    "name": "West Dunbartonshire",
     "count": 1
   },
   {
@@ -2975,13 +2965,8 @@
     "count": 1
   },
   {
-    "geoid": "S14000059",
-    "name": "West Dunbartonshire",
-    "count": 1
-  },
-  {
-    "geoid": "E14000570",
-    "name": "Blackburn",
+    "geoid": "E14000903",
+    "name": "Rother Valley",
     "count": 1
   },
   {
@@ -2990,13 +2975,13 @@
     "count": 1
   },
   {
-    "geoid": "E14001030",
-    "name": "West Bromwich West",
+    "geoid": "E14000833",
+    "name": "Newcastle upon Tyne North",
     "count": 1
   },
   {
-    "geoid": "E14000643",
-    "name": "Cleethorpes",
+    "geoid": "E14000986",
+    "name": "Tamworth",
     "count": 1
   },
   {
@@ -3015,11 +3000,6 @@
     "count": 1
   },
   {
-    "geoid": "E14000800",
-    "name": "Luton North",
-    "count": 1
-  },
-  {
     "geoid": "S14000007",
     "name": "Banff and Buchan",
     "count": 1
@@ -3030,13 +3010,8 @@
     "count": 1
   },
   {
-    "geoid": "E14000810",
-    "name": "Mansfield",
-    "count": 1
-  },
-  {
-    "geoid": "E14000657",
-    "name": "Dagenham and Rainham",
+    "geoid": "S14000012",
+    "name": "Cumbernauld, Kilsyth and Kirkintilloch East",
     "count": 1
   },
   {
@@ -3045,23 +3020,8 @@
     "count": 1
   },
   {
-    "geoid": "S14000012",
-    "name": "Cumbernauld, Kilsyth and Kirkintilloch East",
-    "count": 1
-  },
-  {
-    "geoid": "E14001012",
-    "name": "Walsall South",
-    "count": 1
-  },
-  {
-    "geoid": "E14000754",
-    "name": "Houghton and Sunderland South",
-    "count": 1
-  },
-  {
-    "geoid": "E14001014",
-    "name": "Wansbeck",
+    "geoid": "W07000070",
+    "name": "Cynon Valley",
     "count": 1
   },
   {
@@ -3070,18 +3030,58 @@
     "count": 1
   },
   {
+    "geoid": "E14000972",
+    "name": "Stoke-on-Trent Central",
+    "count": 1
+  },
+  {
+    "geoid": "E14000800",
+    "name": "Luton North",
+    "count": 1
+  },
+  {
+    "geoid": "E14000810",
+    "name": "Mansfield",
+    "count": 1
+  },
+  {
+    "geoid": "E14001012",
+    "name": "Walsall South",
+    "count": 1
+  },
+  {
+    "geoid": "E14000657",
+    "name": "Dagenham and Rainham",
+    "count": 1
+  },
+  {
+    "geoid": "E14001014",
+    "name": "Wansbeck",
+    "count": 1
+  },
+  {
     "geoid": "E14000625",
     "name": "Charnwood",
     "count": 1
   },
   {
-    "geoid": "E14000995",
-    "name": "Thurrock",
+    "geoid": "E14000643",
+    "name": "Cleethorpes",
     "count": 1
   },
   {
-    "geoid": "E14000986",
-    "name": "Tamworth",
+    "geoid": "E14001020",
+    "name": "Washington and Sunderland West",
+    "count": 1
+  },
+  {
+    "geoid": "E14000596",
+    "name": "Brigg and Goole",
+    "count": 1
+  },
+  {
+    "geoid": "N06000005",
+    "name": "East Antrim",
     "count": 1
   },
   {
@@ -3090,8 +3090,38 @@
     "count": 1
   },
   {
-    "geoid": "E14000909",
-    "name": "Rutland and Melton",
+    "geoid": "E14001030",
+    "name": "West Bromwich West",
+    "count": 1
+  },
+  {
+    "geoid": "E14000588",
+    "name": "Bradford South",
+    "count": 1
+  },
+  {
+    "geoid": "E14000754",
+    "name": "Houghton and Sunderland South",
+    "count": 1
+  },
+  {
+    "geoid": "E14000647",
+    "name": "Copeland",
+    "count": 1
+  },
+  {
+    "geoid": "E14000672",
+    "name": "Dudley South",
+    "count": 1
+  },
+  {
+    "geoid": "E14000995",
+    "name": "Thurrock",
+    "count": 1
+  },
+  {
+    "geoid": "E14001050",
+    "name": "Wolverhampton South East",
     "count": 1
   },
   {
@@ -3105,48 +3135,18 @@
     "count": 1
   },
   {
-    "geoid": "E14001020",
-    "name": "Washington and Sunderland West",
+    "geoid": "E14000909",
+    "name": "Rutland and Melton",
     "count": 1
   },
   {
-    "geoid": "E14000647",
-    "name": "Copeland",
-    "count": 1
-  },
-  {
-    "geoid": "E14000588",
-    "name": "Bradford South",
+    "geoid": "E14000570",
+    "name": "Blackburn",
     "count": 1
   },
   {
     "geoid": "W07000053",
     "name": "Torfaen",
-    "count": 1
-  },
-  {
-    "geoid": "E14000784",
-    "name": "Leicester West",
-    "count": 1
-  },
-  {
-    "geoid": "E14000836",
-    "name": "Normanton, Pontefract and Castleford",
-    "count": 1
-  },
-  {
-    "geoid": "E14000972",
-    "name": "Stoke-on-Trent Central",
-    "count": 1
-  },
-  {
-    "geoid": "W07000070",
-    "name": "Cynon Valley",
-    "count": 1
-  },
-  {
-    "geoid": "E14000596",
-    "name": "Brigg and Goole",
     "count": 1
   }
 ]
