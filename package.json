@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "near-me",
   "private": true,
   "version": "0.1.0",
   "author": "@WhoTargetsMe",
@@ -51,9 +51,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/WhoTargetsMe/near-me"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/WhoTargetsMe/near-me/issues"
   }
 }

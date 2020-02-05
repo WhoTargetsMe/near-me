@@ -1,4 +1,6 @@
-This project is built with [Gatsby!](https://www.gatsbyjs.org)
+# Near me
+
+Visulisations for the 2019 UK General Election
 
 ## 🚀 Quick start
 
@@ -23,7 +25,3 @@ This project is built with [Gatsby!](https://www.gatsbyjs.org)
     ```
     gatsby build --path-prefix
     ```
-
-2.  **Upload**
-
-    Upload the files from the `public/` directory to the file server.
